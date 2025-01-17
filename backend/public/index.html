@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Excel Files</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/collection/components/icon/icon.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-6 text-center">Upload Excel Files</h1>
+        <form id="uploadForm" enctype="multipart/form-data" class="space-y-4">
+            <div id="dropArea" class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 rounded-lg p-6 bg-gray-50 hover:bg-gray-100 transition duration-300">
+                <ion-icon name="cloud-upload-outline" class="text-6xl text-blue-500 mb-4"></ion-icon>
+                <p class="text-gray-500 mb-4">Drag & drop your files here, or click to select files</p>
+                <input type="file" name="files" accept=".xlsx,.xls" multiple class="hidden" />
+            </div>
+            <div id="fileList" class="space-y-2"></div>
+            <button type="button" id="clearFiles" class="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 transition duration-300">Clear All</button>
+            <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300">Upload</button>
+        </form>
+    </div>
+
+    <div id="popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+            <h2 class="text-xl font-bold mb-4">Success</h2>
+            <p>Files uploaded successfully!</p>
+            <button id="closePopup" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300">Close</button>
+        </div>
+    </div>
+
+    <script>
+        const dropArea = document.getElementById('dropArea');
+        const fileInput = dropArea.querySelector('input[type="file"]');
+        const fileList = document.getElementById('fileList');
+        const uploadForm = document.getElementById('uploadForm');
+        const popup = document.getElementById('popup');
+        const closePopup = document.getElementById('closePopup');
+        const clearFilesButton = document.getElementById('clearFiles');
+
+        let filesArray = [];
+
+        dropArea.addEventListener('click', () => fileInput.click());
+
+        dropArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropArea.classList.add('bg-gray-100');
+        });
+
+        dropArea.addEventListener('dragleave', () => {
+            dropArea.classList.remove('bg-gray-100');
+        });
+
+        dropArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropArea.classList.remove('bg-gray-100');
+            filesArray = Array.from(e.dataTransfer.files);
+            updateFileList();
+        });
+
+        fileInput.addEventListener('change', () => {
+            filesArray = Array.from(fileInput.files);
+            updateFileList();
+        });
+
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            if (filesArray.length === 0) {
+                alert('Please select at least one file.');
+                return;
+            }
+            const formData = new FormData();
+            filesArray.forEach(file => formData.append('files', file));
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                if (response.ok) {
+                    popup.classList.remove('hidden');
+                    filesArray = []; // Очистить список загруженных файлов
+                    updateFileList();
+                } else {
+                    alert('Failed to upload files');
+                }
+            } catch (error) {
+                alert('Failed to upload files');
+            }
+        });
+
+        closePopup.addEventListener('click', () => {
+            popup.classList.add('hidden');
+        });
+
+        clearFilesButton.addEventListener('click', () => {
+            filesArray = [];
+            updateFileList();
+        });
+
+        function updateFileList() {
+            fileList.innerHTML = '';
+            filesArray.forEach((file, index) => {
+                const fileItem = document.createElement('div');
+                fileItem.classList.add('flex', 'items-center', 'space-x-2');
+                fileItem.innerHTML = `
+                    <ion-icon name="document-outline" class="text-xl text-black"></ion-icon>
+                    <span class="text-gray-700 truncate w-full">${file.name}</span>
+                    <ion-icon name="trash-outline" class="text-xl text-black cursor-pointer" onclick="removeFile(${index})"></ion-icon>
+                `;
+                fileList.appendChild(fileItem);
+            });
+        }
+
+        window.removeFile = (index) => {
+            filesArray.splice(index, 1);
+            updateFileList();
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,2883 @@
+Ім'я працівника: Шкомар Сніжана
+Посада: керівник
+01.11.2024 п'ятниця: Рв
+Departament: 
+Duty: true
+02.11.2024 субота: ВХ
+Departament: 
+Duty: true
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+06.11.2024 середа: Рв
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+13.11.2024 середа: М
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: М
+Departament: 
+Duty: false
+16.11.2024 субота: М
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+20.11.2024 середа: Рв
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+27.11.2024 середа: Рв
+Departament: 
+Duty: false
+28.11.2024 четвер: Рв
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Ігнатьєва Дар'я
+Посада: Експерт
+01.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+02.11.2024 субота: Рв
+Departament: К
+Duty: false
+03.11.2024 неділя: Рв
+Departament: К
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: К
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+06.11.2024 середа: ВІД
+Departament: 
+Duty: false
+07.11.2024 четвер: ВІД
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: ВІД
+Departament: 
+Duty: false
+09.11.2024 субота: ВІД
+Departament: 
+Duty: false
+10.11.2024 неділя: ВІД
+Departament: 
+Duty: false
+11.11.2024 понеділок: ВІД
+Departament: 
+Duty: false
+12.11.2024 вівторок: ВІД
+Departament: 
+Duty: false
+13.11.2024 середа: ВХ
+Departament: 
+Duty: false
+14.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ОСС
+Departament: 
+Duty: true
+18.11.2024 понеділок: ОСС
+Departament: 
+Duty: true
+19.11.2024 вівторок: ОСС
+Departament: 
+Duty: true
+20.11.2024 середа: ОСС
+Departament: 
+Duty: true
+21.11.2024 четвер: ОСС
+Departament: 
+Duty: true
+22.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: true
+23.11.2024 субота: ОСС
+Departament: 
+Duty: true
+24.11.2024 неділя: ОСС
+Departament: 
+Duty: false
+25.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+26.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+27.11.2024 середа: ОСС
+Departament: 
+Duty: false
+28.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Стужук Ігор
+Посада: Експерт
+01.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: К
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+06.11.2024 середа: Рв
+Departament: К
+Duty: false
+07.11.2024 четвер: Рв
+Departament: К
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: К
+Duty: false
+09.11.2024 субота: Рв
+Departament: К
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+11.11.2024 понеділок: ВХ
+Departament: 
+Duty: true
+12.11.2024 вівторок: Рв
+Departament: К
+Duty: true
+13.11.2024 середа: Рв
+Departament: К
+Duty: true
+14.11.2024 четвер: Рв
+Departament: М
+Duty: true
+15.11.2024 п'ятниця: Рв
+Departament: К
+Duty: true
+16.11.2024 субота: Рв
+Departament: К
+Duty: true
+17.11.2024 неділя: Рв
+Departament: М
+Duty: false
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+20.11.2024 середа: Рв
+Departament: К
+Duty: false
+21.11.2024 четвер: Рв
+Departament: К
+Duty: false
+22.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+27.11.2024 середа: Рв
+Departament: К
+Duty: false
+28.11.2024 четвер: Рв
+Departament: К
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: К
+Duty: false
+30.11.2024 субота: ОСС
+Departament: 
+Duty: false
+
+Ім'я працівника: Анода Дар'я
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: К
+Duty: false
+02.11.2024 субота: Рв
+Departament: К
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+04.11.2024 понеділок: ВХ
+Departament: 
+Duty: true
+05.11.2024 вівторок: Рв
+Departament: К
+Duty: true
+06.11.2024 середа: Рв
+Departament: К
+Duty: true
+07.11.2024 четвер: Рв
+Departament: К
+Duty: true
+08.11.2024 п'ятниця: Рв
+Departament: К
+Duty: true
+09.11.2024 субота: ВХ
+Departament: 
+Duty: true
+10.11.2024 неділя: Рв
+Departament: К
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: К
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+13.11.2024 середа: Рв
+Departament: К
+Duty: false
+14.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+16.11.2024 субота: Рв
+Departament: К
+Duty: false
+17.11.2024 неділя: Рв
+Departament: К
+Duty: false
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+20.11.2024 середа: Рв
+Departament: К
+Duty: false
+21.11.2024 четвер: Рв
+Departament: ЛК
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: ЛК
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: К
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+27.11.2024 середа: Рв
+Departament: К
+Duty: false
+28.11.2024 четвер: Рв
+Departament: К
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: Рв
+Departament: К
+Duty: false
+
+Ім'я працівника: Кононенко Вікторія
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: К
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: Рв
+Departament: К
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: К
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+06.11.2024 середа: Рв
+Departament: К
+Duty: false
+07.11.2024 четвер: Рв
+Departament: К
+Duty: false
+08.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: Рв
+Departament: К
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: К
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: К
+Duty: false
+13.11.2024 середа: ВХ
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: К
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: К
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+18.11.2024 понеділок: Рв
+Departament: К
+Duty: true
+19.11.2024 вівторок: Рв
+Departament: К
+Duty: true
+20.11.2024 середа: Рв
+Departament: К
+Duty: true
+21.11.2024 четвер: Рв
+Departament: К
+Duty: true
+22.11.2024 п'ятниця: Рв
+Departament: К
+Duty: true
+23.11.2024 субота: Рв
+Departament: К
+Duty: true
+24.11.2024 неділя: Рв
+Departament: К
+Duty: false
+25.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+26.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+27.11.2024 середа: Рв
+Departament: К
+Duty: false
+28.11.2024 четвер: Рв
+Departament: К
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: К
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Ємельяненко Аліна
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: ЛК
+Duty: true
+02.11.2024 субота: Рв
+Departament: ф
+Duty: true
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: ЛК
+Duty: false
+06.11.2024 середа: Рв
+Departament: ф
+Duty: false
+07.11.2024 четвер: Рв
+Departament: ф
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: ф
+Duty: false
+09.11.2024 субота: Рв
+Departament: ф
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+12.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: М
+Duty: false
+14.11.2024 четвер: Рв
+Departament: ф
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: ф
+Duty: false
+16.11.2024 субота: Рв
+Departament: ф
+Duty: false
+17.11.2024 неділя: Рв
+Departament: ф
+Duty: false
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: ф
+Duty: false
+20.11.2024 середа: Рв
+Departament: ф
+Duty: false
+21.11.2024 четвер: Рв
+Departament: ф
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: ф
+Duty: false
+23.11.2024 субота: Рв
+Departament: ф
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: ф
+Duty: false
+26.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+27.11.2024 середа: ВХ
+Departament: 
+Duty: false
+28.11.2024 четвер: Рв
+Departament: ф
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: ф
+Duty: false
+30.11.2024 субота: Рв
+Departament: ф
+Duty: false
+
+Ім'я працівника: Якимець Світлана
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: ф
+Duty: false
+02.11.2024 субота: Рв
+Departament: ЛК
+Duty: false
+03.11.2024 неділя: Рв
+Departament: ф
+Duty: true
+04.11.2024 понеділок: Рв
+Departament: ф
+Duty: true
+05.11.2024 вівторок: Рв
+Departament: ф
+Duty: true
+06.11.2024 середа: ВХ
+Departament: 
+Duty: true
+07.11.2024 четвер: ВХ
+Departament: 
+Duty: true
+08.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: true
+09.11.2024 субота: ВХ
+Departament: 
+Duty: true
+10.11.2024 неділя: Рв
+Departament: ф
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: ф
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: ф
+Duty: false
+13.11.2024 середа: Рв
+Departament: ф
+Duty: false
+14.11.2024 четвер: Рв
+Departament: ф
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: ф
+Duty: false
+16.11.2024 субота: Рв
+Departament: М
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: ф
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: ф
+Duty: false
+20.11.2024 середа: Рв
+Departament: ф
+Duty: false
+21.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: Рв
+Departament: ф
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: ф
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: ф
+Duty: false
+27.11.2024 середа: Рв
+Departament: ф
+Duty: false
+28.11.2024 четвер: Рв
+Departament: ф
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: ф
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Дуброва Денис
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: true
+02.11.2024 субота: Рв
+Departament: Рс
+Duty: true
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+06.11.2024 середа: Рв
+Departament: Рс
+Duty: false
+07.11.2024 четвер: Рв
+Departament: Рс
+Duty: false
+08.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: Рв
+Departament: Рс
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+13.11.2024 середа: Рв
+Departament: Рс
+Duty: false
+14.11.2024 четвер: Рв
+Departament: М
+Duty: false
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+20.11.2024 середа: Рв
+Departament: Рс
+Duty: false
+21.11.2024 четвер: Рв
+Departament: Рс
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+27.11.2024 середа: Рв
+Departament: Рс
+Duty: false
+28.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: false
+30.11.2024 субота: Рв
+Departament: Рс
+Duty: false
+
+Ім'я працівника: Поліщук Анатолій
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: true
+02.11.2024 субота: ВХ
+Departament: 
+Duty: true
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+06.11.2024 середа: Рв
+Departament: Рс
+Duty: false
+07.11.2024 четвер: Рв
+Departament: Рс
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+13.11.2024 середа: Рв
+Departament: М
+Duty: false
+14.11.2024 четвер: Рв
+Departament: Рс
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: false
+16.11.2024 субота: Рв
+Departament: Рс
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: true
+19.11.2024 вівторок: Рв
+Departament: Рс
+Duty: true
+20.11.2024 середа: Рв
+Departament: Рс
+Duty: true
+21.11.2024 четвер: Рв
+Departament: Рс
+Duty: true
+22.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: true
+23.11.2024 субота: Рв
+Departament: Рс
+Duty: true
+24.11.2024 неділя: Рв
+Departament: Рс
+Duty: false
+25.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+26.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+27.11.2024 середа: ВХ
+Departament: 
+Duty: false
+28.11.2024 четвер: Рв
+Departament: Рс
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: false
+30.11.2024 субота: Рв
+Departament: Рс
+Duty: false
+
+Ім'я працівника: Койнаш Лілія
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: false
+02.11.2024 субота: Рв
+Departament: Рс
+Duty: false
+03.11.2024 неділя: Рв
+Departament: Рс
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+05.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+06.11.2024 середа: ВХ
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: Рс
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: Рс
+Duty: false
+09.11.2024 субота: Рв
+Departament: Рс
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+11.11.2024 понеділок: Рв
+Departament: Рс
+Duty: true
+12.11.2024 вівторок: Рв
+Departament: Рс
+Duty: true
+13.11.2024 середа: ВХ
+Departament: 
+Duty: true
+14.11.2024 четвер: ВХ
+Departament: 
+Duty: true
+15.11.2024 п'ятниця: ВІД
+Departament: 
+Duty: true
+16.11.2024 субота: Рв
+Departament: М
+Duty: true
+17.11.2024 неділя: Рв
+Departament: Рс
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+20.11.2024 середа: Рв
+Departament: Рс
+Duty: false
+21.11.2024 четвер: Рв
+Departament: ЛК
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: Рв
+Departament: Рс
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: Рс
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: Рс
+Duty: false
+27.11.2024 середа: Рв
+Departament: Рс
+Duty: false
+28.11.2024 четвер: Рв
+Departament: Рс
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Анчевський Євгеній
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: фф
+Duty: false
+02.11.2024 субота: Рв
+Departament: фф
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+04.11.2024 понеділок: Рв
+Departament: фф
+Duty: true
+05.11.2024 вівторок: ВХ
+Departament: 
+Duty: true
+06.11.2024 середа: Рв
+Departament: фф
+Duty: true
+07.11.2024 четвер: Рв
+Departament: фф
+Duty: true
+08.11.2024 п'ятниця: Рв
+Departament: фф
+Duty: true
+09.11.2024 субота: Рв
+Departament: фф
+Duty: true
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: фф
+Duty: false
+13.11.2024 середа: Рв
+Departament: М
+Duty: false
+14.11.2024 четвер: Рв
+Departament: фф
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: фф
+Duty: false
+16.11.2024 субота: Рв
+Departament: фф
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: фф
+Duty: false
+20.11.2024 середа: Рв
+Departament: фф
+Duty: false
+21.11.2024 четвер: Рв
+Departament: фф
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: фф
+Duty: false
+23.11.2024 субота: Рв
+Departament: фф
+Duty: false
+24.11.2024 неділя: Рв
+Departament: фф
+Duty: false
+25.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+26.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+27.11.2024 середа: ВХ
+Departament: 
+Duty: false
+28.11.2024 четвер: Рв
+Departament: фф
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: фф
+Duty: false
+30.11.2024 субота: Рв
+Departament: фф
+Duty: false
+
+Ім'я працівника: Сюрха Орест
+Посада: Експерт
+01.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: Рв
+Departament: фф
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: фф
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: фф
+Duty: false
+06.11.2024 середа: Рв
+Departament: фф
+Duty: false
+07.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+09.11.2024 субота: Рв
+Departament: фф
+Duty: false
+10.11.2024 неділя: Рв
+Departament: фф
+Duty: true
+11.11.2024 понеділок: Рв
+Departament: фф
+Duty: true
+12.11.2024 вівторок: Рв
+Departament: фф
+Duty: true
+13.11.2024 середа: Рв
+Departament: фф
+Duty: true
+14.11.2024 четвер: ВХ
+Departament: 
+Duty: true
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: true
+16.11.2024 субота: ВХ
+Departament: 
+Duty: true
+17.11.2024 неділя: Рв
+Departament: фф
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: фф
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: фф
+Duty: false
+20.11.2024 середа: ВІД
+Departament: 
+Duty: false
+21.11.2024 четвер: ВІД
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: ВІД
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: Рв
+Departament: фф
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: фф
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: фф
+Duty: false
+27.11.2024 середа: Рв
+Departament: фф
+Duty: false
+28.11.2024 четвер: Рв
+Departament: фф
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: Рв
+Departament: фф
+Duty: false
+
+Ім'я працівника: Сотников Єгор
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: ЛФ
+Duty: false
+02.11.2024 субота: Рв
+Departament: ЛФ
+Duty: false
+03.11.2024 неділя: Рв
+Departament: ЛФ
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: ЛФ
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: ЛФ
+Duty: false
+06.11.2024 середа: Рв
+Departament: ЛФ
+Duty: false
+07.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: ЛФ
+Duty: false
+09.11.2024 субота: Рв
+Departament: ЛФ
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: ЛФ
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: ЛФ
+Duty: false
+13.11.2024 середа: ВХ
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: ЛФ
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: ЛФ
+Duty: false
+16.11.2024 субота: Рв
+Departament: ЛФ
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: true
+19.11.2024 вівторок: Рв
+Departament: ЛФ
+Duty: true
+20.11.2024 середа: Рв
+Departament: ЛФ
+Duty: true
+21.11.2024 четвер: Рв
+Departament: ЛФ
+Duty: true
+22.11.2024 п'ятниця: Рв
+Departament: ЛФ
+Duty: true
+23.11.2024 субота: ВХ
+Departament: 
+Duty: true
+24.11.2024 неділя: Рв
+Departament: ЛФ
+Duty: false
+25.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+26.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+27.11.2024 середа: Рв
+Departament: ЛФ
+Duty: false
+28.11.2024 четвер: Рв
+Departament: ЛФ
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: ЛФ
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Тищенко Світлана
+Посада: Експерт
+01.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВІД
+Departament: 
+Duty: false
+04.11.2024 понеділок: ВІД
+Departament: 
+Duty: false
+05.11.2024 вівторок: ВІД
+Departament: 
+Duty: false
+06.11.2024 середа: ВІД
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: ЛФ
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: ЛФ
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: Рв
+Departament: ЛФ
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: ЛФ
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: ЛФ
+Duty: false
+13.11.2024 середа: Рв
+Departament: ЛФ
+Duty: false
+14.11.2024 четвер: Рв
+Departament: ЛФ
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: М
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: Рв
+Departament: ЛФ
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: ЛФ
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: ЛФ
+Duty: false
+20.11.2024 середа: ВХ
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: ЛФ
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: ЛФ
+Duty: false
+23.11.2024 субота: Рв
+Departament: ЛФ
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: ЛФ
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: ЛФ
+Duty: false
+27.11.2024 середа: Рв
+Departament: ЛФ
+Duty: false
+28.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: Рв
+Departament: ЛФ
+Duty: false
+
+Ім'я працівника: Шмиговський Олександр
+Посада: Експерт
+01.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+02.11.2024 субота: ОСС
+Departament: 
+Duty: false
+03.11.2024 неділя: ОСС
+Departament: 
+Duty: false
+04.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+05.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+06.11.2024 середа: ОСС
+Departament: 
+Duty: false
+07.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+09.11.2024 субота: ОСС
+Departament: 
+Duty: false
+10.11.2024 неділя: ОСС
+Departament: 
+Duty: false
+11.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+12.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+13.11.2024 середа: ОСС
+Departament: 
+Duty: false
+14.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+16.11.2024 субота: ОСС
+Departament: 
+Duty: false
+17.11.2024 неділя: ОСС
+Departament: 
+Duty: false
+18.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+19.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+20.11.2024 середа: ОСС
+Departament: 
+Duty: false
+21.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+23.11.2024 субота: ОСС
+Departament: 
+Duty: false
+24.11.2024 неділя: ОСС
+Departament: 
+Duty: true
+25.11.2024 понеділок: ОСС
+Departament: 
+Duty: true
+26.11.2024 вівторок: ОСС
+Departament: 
+Duty: true
+27.11.2024 середа: ОСС
+Departament: 
+Duty: true
+28.11.2024 четвер: ОСС
+Departament: 
+Duty: true
+29.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: true
+30.11.2024 субота: ОСС
+Departament: 
+Duty: true
+
+Ім'я працівника: Захарченко Геннадій
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: Т
+Duty: false
+02.11.2024 субота: Рв
+Departament: Т
+Duty: false
+03.11.2024 неділя: Рв
+Departament: Т
+Duty: false
+04.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+05.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+06.11.2024 середа: ОСС
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: Т
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: Т
+Duty: false
+09.11.2024 субота: Рв
+Departament: Т
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+11.11.2024 понеділок: ВХ
+Departament: 
+Duty: true
+12.11.2024 вівторок: Рв
+Departament: Т
+Duty: true
+13.11.2024 середа: ВХ
+Departament: 
+Duty: true
+14.11.2024 четвер: Рв
+Departament: Т
+Duty: true
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: true
+16.11.2024 субота: Рв
+Departament: Т
+Duty: true
+17.11.2024 неділя: Рв
+Departament: М
+Duty: false
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+19.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+20.11.2024 середа: Рв
+Departament: Т
+Duty: false
+21.11.2024 четвер: Рв
+Departament: Т
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: Т
+Duty: false
+23.11.2024 субота: Рв
+Departament: Т
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: Т
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: Т
+Duty: false
+27.11.2024 середа: Рв
+Departament: Т
+Duty: false
+28.11.2024 четвер: Рв
+Departament: Т
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: Рв
+Departament: Т
+Duty: false
+
+Ім'я працівника: Кучеренко Олександр
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: Т
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: Т
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: Т
+Duty: false
+06.11.2024 середа: Рв
+Departament: Т
+Duty: false
+07.11.2024 четвер: Рв
+Departament: Т
+Duty: false
+08.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: Рв
+Departament: Т
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: Т
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: Т
+Duty: false
+13.11.2024 середа: Рв
+Departament: Т
+Duty: false
+14.11.2024 четвер: Рв
+Departament: М
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: Т
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: Рв
+Departament: Т
+Duty: true
+18.11.2024 понеділок: Рв
+Departament: Т
+Duty: true
+19.11.2024 вівторок: Рв
+Departament: Т
+Duty: true
+20.11.2024 середа: Рв
+Departament: ЛК
+Duty: true
+21.11.2024 четвер: ВХ
+Departament: 
+Duty: true
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: true
+23.11.2024 субота: ВХ
+Departament: 
+Duty: true
+24.11.2024 неділя: Рв
+Departament: Т
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: Т
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: Т
+Duty: false
+27.11.2024 середа: Рв
+Departament: Т
+Duty: false
+28.11.2024 четвер: Рв
+Departament: Т
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: Т
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Ігнатьєва Катерина
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: М
+Duty: true
+02.11.2024 субота: Рв
+Departament: М
+Duty: true
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: М
+Duty: false
+06.11.2024 середа: Рв
+Departament: М
+Duty: false
+07.11.2024 четвер: Рв
+Departament: М
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: М
+Duty: false
+09.11.2024 субота: Рв
+Departament: М
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: М
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: М
+Duty: false
+13.11.2024 середа: Рв
+Departament: М
+Duty: false
+14.11.2024 четвер: Рв
+Departament: М
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: М
+Duty: false
+16.11.2024 субота: Рв
+Departament: М
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: М
+Duty: false
+20.11.2024 середа: Рв
+Departament: М
+Duty: false
+21.11.2024 четвер: Рв
+Departament: М
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: Рв
+Departament: М
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: М
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: М
+Duty: false
+27.11.2024 середа: Рв
+Departament: М
+Duty: false
+28.11.2024 четвер: Рв
+Departament: М
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Койнаш Анна
+Посада: Експерт
+01.11.2024 п'ятниця: Рв
+Departament: М
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: Рв
+Departament: М
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: М
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: М
+Duty: false
+06.11.2024 середа: Рв
+Departament: М
+Duty: false
+07.11.2024 четвер: Рв
+Departament: М
+Duty: false
+08.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: Рв
+Departament: М
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: М
+Duty: false
+12.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+13.11.2024 середа: ВІД
+Departament: 
+Duty: false
+14.11.2024 четвер: ВІД
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ВІД
+Departament: 
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: Рв
+Departament: М
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: М
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: М
+Duty: false
+20.11.2024 середа: ВХ
+Departament: 
+Duty: false
+21.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: М
+Duty: false
+23.11.2024 субота: Рв
+Departament: М
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+25.11.2024 понеділок: Рв
+Departament: ЛК
+Duty: true
+26.11.2024 вівторок: Рв
+Departament: ЛК
+Duty: true
+27.11.2024 середа: Рв
+Departament: М
+Duty: true
+28.11.2024 четвер: ВХ
+Departament: 
+Duty: true
+29.11.2024 п'ятниця: Рв
+Departament: М
+Duty: true
+30.11.2024 субота: Рв
+Departament: М
+Duty: true
+
+Ім'я працівника: Куліш Інна
+Посада: Консультант
+01.11.2024 п'ятниця: Рв
+Departament: 1
+Duty: false
+02.11.2024 субота: Рв
+Departament: 2
+Duty: false
+03.11.2024 неділя: Рв
+Departament: 2
+Duty: true
+04.11.2024 понеділок: ВХ
+Departament: 
+Duty: true
+05.11.2024 вівторок: ВХ
+Departament: 
+Duty: true
+06.11.2024 середа: ВХ
+Departament: 
+Duty: true
+07.11.2024 четвер: Рв
+Departament: ф
+Duty: true
+08.11.2024 п'ятниця: Рв
+Departament: 1
+Duty: true
+09.11.2024 субота: Рв
+Departament: 2
+Duty: true
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+13.11.2024 середа: Рв
+Departament: 2
+Duty: false
+14.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+16.11.2024 субота: Рв
+Departament: 2
+Duty: false
+17.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+20.11.2024 середа: Рв
+Departament: 2
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: Рв
+Departament: 1
+Duty: false
+24.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: 1
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 1
+Duty: false
+27.11.2024 середа: Рв
+Departament: 2
+Duty: false
+28.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+30.11.2024 субота: Рв
+Departament: 2
+Duty: false
+
+Ім'я працівника: Василик Анна
+Посада: Консультант
+01.11.2024 п'ятниця: Рв
+Departament: 1
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 1
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+06.11.2024 середа: Рв
+Departament: 2
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+08.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+09.11.2024 субота: Рв
+Departament: 2
+Duty: false
+10.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: ф
+Duty: false
+12.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: 2
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+16.11.2024 субота: Рв
+Departament: 2
+Duty: false
+17.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 1
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+20.11.2024 середа: ВХ
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+23.11.2024 субота: Рв
+Departament: 2
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+25.11.2024 понеділок: ВХ
+Departament: 
+Duty: true
+26.11.2024 вівторок: Рв
+Departament: 2
+Duty: true
+27.11.2024 середа: Рв
+Departament: 1
+Duty: true
+28.11.2024 четвер: ВХ
+Departament: 
+Duty: true
+29.11.2024 п'ятниця: Рв
+Departament: 1
+Duty: true
+30.11.2024 субота: Рв
+Departament: 2
+Duty: true
+
+Ім'я працівника: Гуляй Любов
+Посада: Консультант
+01.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+06.11.2024 середа: Рв
+Departament: 2
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+09.11.2024 субота: Рв
+Departament: 1
+Duty: false
+10.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+11.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+12.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: 2
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+20.11.2024 середа: Рв
+Departament: 1
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+23.11.2024 субота: Рв
+Departament: 2
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: true
+25.11.2024 понеділок: Рв
+Departament: 2
+Duty: true
+26.11.2024 вівторок: Рв
+Departament: 1
+Duty: true
+27.11.2024 середа: Рв
+Departament: 2
+Duty: true
+28.11.2024 четвер: Рв
+Departament: 2
+Duty: true
+29.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: true
+30.11.2024 субота: ВХ
+Departament: 
+Duty: true
+
+Ім'я працівника: Пастухова Альона
+Посада: Консультант
+01.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+02.11.2024 субота: Рв
+Departament: 1
+Duty: false
+03.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+05.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+06.11.2024 середа: ВХ
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 1
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+09.11.2024 субота: Рв
+Departament: 2
+Duty: false
+10.11.2024 неділя: Рв
+Departament: 1
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: ЛК
+Duty: false
+13.11.2024 середа: ВХ
+Departament: 
+Duty: false
+14.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+16.11.2024 субота: Рв
+Departament: 2
+Duty: false
+17.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+20.11.2024 середа: Рв
+Departament: 2
+Duty: false
+21.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: Рв
+Departament: 2
+Duty: false
+24.11.2024 неділя: Рв
+Departament: 2
+Duty: true
+25.11.2024 понеділок: Рв
+Departament: 2
+Duty: true
+26.11.2024 вівторок: Рв
+Departament: ф
+Duty: true
+27.11.2024 середа: Рв
+Departament: 1
+Duty: true
+28.11.2024 четвер: Рв
+Departament: ЛК
+Duty: true
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: true
+30.11.2024 субота: ВХ
+Departament: 
+Duty: true
+
+Ім'я працівника: Захарченко Катерина
+Посада: Консультант
+01.11.2024 п'ятниця: Рв
+Departament: 1
+Duty: false
+02.11.2024 субота: Рв
+Departament: 2
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+06.11.2024 середа: ВХ
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: ЛК
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: ЛК
+Duty: false
+09.11.2024 субота: Рв
+Departament: ЛК
+Duty: false
+10.11.2024 неділя: Рв
+Departament: ЛК
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: ЛК
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: ЛК
+Duty: false
+13.11.2024 середа: Рв
+Departament: ЛК
+Duty: false
+14.11.2024 четвер: Рв
+Departament: ЛК
+Duty: false
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: ЛК
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: ЛК
+Duty: false
+20.11.2024 середа: Рв
+Departament: ЛК
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 1
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: Рв
+Departament: ф
+Duty: true
+25.11.2024 понеділок: Рв
+Departament: 1
+Duty: true
+26.11.2024 вівторок: Рв
+Departament: 2
+Duty: true
+27.11.2024 середа: ВХ
+Departament: 
+Duty: true
+28.11.2024 четвер: Рв
+Departament: 2
+Duty: true
+29.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: true
+30.11.2024 субота: ВХ
+Departament: 
+Duty: true
+
+Ім'я працівника: Тиднюк Юлія
+Посада: Консультант
+01.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: Рв
+Departament: 1
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 1
+Duty: false
+06.11.2024 середа: Рв
+Departament: 2
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+13.11.2024 середа: Рв
+Departament: 1
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 2
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 1
+Duty: false
+20.11.2024 середа: Рв
+Departament: 2
+Duty: false
+21.11.2024 четвер: Рв
+Departament: ф
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: 2
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 2
+Duty: false
+27.11.2024 середа: Рв
+Departament: 2
+Duty: false
+28.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: Рв
+Departament: 2
+Duty: false
+
+Ім'я працівника: Скочинська Анастасія
+Посада: Консультант
+01.11.2024 п'ятниця: Рв
+Departament: 2
+Duty: false
+02.11.2024 субота: Рв
+Departament: 2
+Duty: false
+03.11.2024 неділя: Рв
+Departament: 2
+Duty: false
+04.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+05.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+06.11.2024 середа: ОСС
+Departament: 
+Duty: false
+07.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+09.11.2024 субота: ОСС
+Departament: 
+Duty: false
+10.11.2024 неділя: ОСС
+Departament: 
+Duty: false
+11.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+12.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+13.11.2024 середа: ОСС
+Departament: 
+Duty: false
+14.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+16.11.2024 субота: ОСС
+Departament: 
+Duty: false
+17.11.2024 неділя: ОСС
+Departament: 
+Duty: false
+18.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+19.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+20.11.2024 середа: ОСС
+Departament: 
+Duty: false
+21.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+23.11.2024 субота: ОСС
+Departament: 
+Duty: false
+24.11.2024 неділя: ОСС
+Departament: 
+Duty: false
+25.11.2024 понеділок: ОСС
+Departament: 
+Duty: false
+26.11.2024 вівторок: ОСС
+Departament: 
+Duty: false
+27.11.2024 середа: ОСС
+Departament: 
+Duty: false
+28.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+30.11.2024 субота: ОСС
+Departament: 
+Duty: false
+
+Ім'я працівника: Кот Марина
+Посада: стажер
+01.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+06.11.2024 середа: Рв
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+09.11.2024 субота: Рв
+Departament: 
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: ВХ
+Departament: 
+Duty: false
+12.11.2024 вівторок: ВХ
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+16.11.2024 субота: Рв
+Departament: 
+Duty: false
+17.11.2024 неділя: Рв
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+20.11.2024 середа: Рв
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: Рв
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+27.11.2024 середа: Рв
+Departament: ЛК
+Duty: false
+28.11.2024 четвер: Рв
+Departament: ЛК
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: ЛК
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Чухно Вікторія
+Посада: стажер
+01.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+02.11.2024 субота: Рв
+Departament: 
+Duty: false
+03.11.2024 неділя: Рв
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+06.11.2024 середа: Рв
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+09.11.2024 субота: Рв
+Departament: 
+Duty: false
+10.11.2024 неділя: Рв
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+20.11.2024 середа: Рв
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: Рв
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+27.11.2024 середа: Рв
+Departament: 
+Duty: false
+28.11.2024 четвер: ВХ
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: ВХ
+Departament: 
+Duty: false
+30.11.2024 субота: Рв
+Departament: 
+Duty: false
+
+Ім'я працівника: Яблонська Світлана
+Посада: Зборщик POS
+01.11.2024 п'ятниця: ОСС
+Departament: 
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+06.11.2024 середа: Рв
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+20.11.2024 середа: Рв
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+27.11.2024 середа: Рв
+Departament: 
+Duty: false
+28.11.2024 четвер: Рв
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Бужин Аліса
+Посада: Мерчендайзер
+01.11.2024 п'ятниця: ВІД
+Departament: 
+Duty: false
+02.11.2024 субота: ВХ
+Departament: 
+Duty: false
+03.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+06.11.2024 середа: Рв
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+09.11.2024 субота: ВХ
+Departament: 
+Duty: false
+10.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+16.11.2024 субота: ВХ
+Departament: 
+Duty: false
+17.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+20.11.2024 середа: Рв
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+23.11.2024 субота: ВХ
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+27.11.2024 середа: Рв
+Departament: 
+Duty: false
+28.11.2024 четвер: Рв
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+30.11.2024 субота: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Артеменко Володимир
+Посада: стажер
+01.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+02.11.2024 субота: Рв
+Departament: 
+Duty: false
+03.11.2024 неділя: Рв
+Departament: 
+Duty: false
+04.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+05.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+06.11.2024 середа: Рв
+Departament: 
+Duty: false
+07.11.2024 четвер: Рв
+Departament: 
+Duty: false
+08.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+09.11.2024 субота: Рв
+Departament: 
+Duty: false
+10.11.2024 неділя: Рв
+Departament: 
+Duty: false
+11.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+12.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+13.11.2024 середа: Рв
+Departament: 
+Duty: false
+14.11.2024 четвер: Рв
+Departament: 
+Duty: false
+15.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+16.11.2024 субота: Рв
+Departament: 
+Duty: false
+17.11.2024 неділя: Рв
+Departament: 
+Duty: false
+18.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+19.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+20.11.2024 середа: Рв
+Departament: 
+Duty: false
+21.11.2024 четвер: Рв
+Departament: 
+Duty: false
+22.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+23.11.2024 субота: Рв
+Departament: 
+Duty: false
+24.11.2024 неділя: ВХ
+Departament: 
+Duty: false
+25.11.2024 понеділок: Рв
+Departament: 
+Duty: false
+26.11.2024 вівторок: Рв
+Departament: 
+Duty: false
+27.11.2024 середа: ВХ
+Departament: 
+Duty: false
+28.11.2024 четвер: ОСС
+Departament: 
+Duty: false
+29.11.2024 п'ятниця: Рв
+Departament: 
+Duty: false
+30.11.2024 субота: Рв
+Departament: 
+Duty: false
+
