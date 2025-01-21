@@ -163,7 +163,7 @@ exports.parseTxtToJson = (req, res) => {
                 if (currentEmployee) {
                     currentEmployee.schedule.push({
                         date,
-                        day,
+                        //day,
                         action,
                         department,
                         duty,

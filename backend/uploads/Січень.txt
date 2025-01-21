@@ -1,0 +1,2591 @@
+Ім'я працівника: Шкомар Сніжана
+Посада: керівник
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 
+Duty: false
+09.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: 
+Duty: true
+13.01.2025 Понеділок: Рв
+Departament: 
+Duty: true
+14.01.2025 Вівторок: Рв
+Departament: 
+Duty: true
+15.01.2025 Середа: Рв
+Departament: 
+Duty: true
+16.01.2025 Четвер: Рв
+Departament: 
+Duty: true
+17.01.2025 П'ятниця: Рв
+Departament: 
+Duty: true
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: true
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 
+Duty: false
+22.01.2025 Середа: Рв
+Departament: 
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+
+Ім'я працівника: Анода Дар'я
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+02.01.2025 Четвер: Рв
+Departament: К
+Duty: true
+03.01.2025 П'ятниця: Рв
+Departament: К
+Duty: true
+04.01.2025 Субота: Рв
+Departament: К
+Duty: true
+05.01.2025 Неділя: Рв
+Departament: К
+Duty: false
+06.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: К
+Duty: false
+08.01.2025 Середа: Рв
+Departament: К
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: К
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: К
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: К
+Duty: false
+15.01.2025 Середа: Рв
+Departament: К
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: К
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: К
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: К
+Duty: false
+22.01.2025 Середа: ОСС
+Departament: 
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: К
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: К
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: К
+Duty: false
+29.01.2025 Середа: Рв
+Departament: К
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+31.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Кононенко Вікторія
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: К
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: К
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: К
+Duty: false
+08.01.2025 Середа: Рв
+Departament: К
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+11.01.2025 Субота: Рв
+Departament: К
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: К
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: К
+Duty: false
+14.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+15.01.2025 Середа: Рв
+Departament: К
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: К
+Duty: false
+18.01.2025  Субота: Рв
+Departament: К
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+20.01.2025 Понеділок: ВХ
+Departament: 
+Duty: true
+21.01.2025  Вівторок: Рв
+Departament: К
+Duty: true
+22.01.2025 Середа: Рв
+Departament: К
+Duty: true
+23.01.2025 Четвер: Рв
+Departament: К
+Duty: true
+24.01.2025 П'ятниця: Рв
+Departament: К
+Duty: true
+25.01.2025  Субота: Рв
+Departament: К
+Duty: true
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: К
+Duty: false
+29.01.2025 Середа: Рв
+Departament: К
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: К
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: К
+Duty: false
+
+Ім'я працівника: Ємельяненко Аліна
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+04.01.2025 Субота: ВІД
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВІД
+Departament: 
+Duty: false
+06.01.2025 Понеділок: ВІД
+Departament: 
+Duty: false
+07.01.2025 Вівторок: ВІД
+Departament: 
+Duty: false
+08.01.2025 Середа: ВІД
+Departament: 
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+11.01.2025 Субота: Рв
+Departament: ф
+Duty: false
+12.01.2025 Неділя: ОСС
+Departament: 
+Duty: true
+13.01.2025 Понеділок: ОСС
+Departament: 
+Duty: true
+14.01.2025 Вівторок: Рв
+Departament: ф
+Duty: true
+15.01.2025 Середа: Рв
+Departament: ф
+Duty: true
+16.01.2025 Четвер: Рв
+Departament: ф
+Duty: true
+17.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: true
+18.01.2025  Субота: Рв
+Departament: ф
+Duty: true
+19.01.2025 Неділя: Рв
+Departament: ф
+Duty: false
+20.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: ф
+Duty: false
+22.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: ф
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: ф
+Duty: false
+28.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+29.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+30.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Якимець Світлана
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+04.01.2025 Субота: Рв
+Departament: ф
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+06.01.2025 Понеділок: Рв
+Departament: ф
+Duty: true
+07.01.2025 Вівторок: Рв
+Departament: ф
+Duty: true
+08.01.2025 Середа: Рв
+Departament: ф
+Duty: true
+09.01.2025 Четвер: ВІД
+Departament: 
+Duty: true
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: true
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: ф
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: ф
+Duty: false
+15.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+18.01.2025  Субота: Рв
+Departament: ф
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: ф
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: ф
+Duty: false
+22.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: ф
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: ф
+Duty: false
+29.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+
+Ім'я працівника: Кот Марина
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+02.01.2025 Четвер: ЛК
+Departament: 
+Duty: true
+03.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: true
+04.01.2025 Субота: Рв
+Departament: ф
+Duty: true
+05.01.2025 Неділя: Рв
+Departament: ф
+Duty: false
+06.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+07.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+11.01.2025 Субота: Рв
+Departament: ф
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: ф
+Duty: false
+13.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+14.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+15.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: ф
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: ф
+Duty: false
+22.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+25.01.2025  Субота: Рв
+Departament: ф
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: ф
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: ф
+Duty: false
+29.01.2025 Середа: Рв
+Departament: ф
+Duty: false
+30.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: ф
+Duty: false
+
+Ім'я працівника: Дуброва Денис
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: true
+03.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+04.01.2025 Субота: Рв
+Departament: Рс
+Duty: true
+05.01.2025 Неділя: Рв
+Departament: Рс
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: false
+08.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: Рс
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: false
+15.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: Рс
+Duty: false
+22.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+25.01.2025  Субота: Рв
+Departament: Рс
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: false
+29.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+
+Ім'я працівника: Поліщук Анатолій
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+04.01.2025 Субота: Рв
+Departament: Рс
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: ЛК
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: false
+08.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: false
+14.01.2025 Вівторок: ВІД
+Departament: 
+Duty: false
+15.01.2025 Середа: ВІД
+Departament: 
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+18.01.2025  Субота: Рв
+Departament: Рс
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: Рс
+Duty: false
+22.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: Рс
+Duty: true
+27.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: true
+28.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: true
+29.01.2025 Середа: Рв
+Departament: Рс
+Duty: true
+30.01.2025 Четвер: Рв
+Departament: Рс
+Duty: true
+31.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: true
+
+Ім'я працівника: Койнаш Лілія
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+04.01.2025 Субота: Рв
+Departament: Рс
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: Рс
+Duty: true
+06.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: true
+07.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: true
+08.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+09.01.2025 Четвер: ВХ
+Departament: 
+Duty: true
+10.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: true
+11.01.2025 Субота: Рв
+Departament: Рс
+Duty: true
+12.01.2025 Неділя: Рв
+Departament: Рс
+Duty: false
+13.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: false
+15.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: Рс
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: Рс
+Duty: false
+22.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: Рс
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: Рс
+Duty: false
+29.01.2025 Середа: Рв
+Departament: Рс
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: Рс
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: Рс
+Duty: false
+
+Ім'я працівника: Анчевський Євгеній
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: false
+04.01.2025 Субота: Рв
+Departament: фф
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: фф
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: фф
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: фф
+Duty: false
+08.01.2025 Середа: Рв
+Departament: фф
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: фф
+Duty: false
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+11.01.2025 Субота: Рв
+Departament: фф
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+13.01.2025 Понеділок: ОСС
+Departament: 
+Duty: true
+14.01.2025 Вівторок: Рв
+Departament: фф
+Duty: true
+15.01.2025 Середа: Рв
+Departament: фф
+Duty: true
+16.01.2025 Четвер: Рв
+Departament: фф
+Duty: true
+17.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: true
+18.01.2025  Субота: Рв
+Departament: фф
+Duty: true
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: фф
+Duty: false
+22.01.2025 Середа: Рв
+Departament: фф
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: фф
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: false
+25.01.2025  Субота: Рв
+Departament: фф
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+28.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+29.01.2025 Середа: Рв
+Departament: фф
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: фф
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: false
+
+Ім'я працівника: Сюрха Орест
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+04.01.2025 Субота: ВІД
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВІД
+Departament: 
+Duty: true
+06.01.2025 Понеділок: ВІД
+Departament: 
+Duty: true
+07.01.2025 Вівторок: ВІД
+Departament: 
+Duty: true
+08.01.2025 Середа: ВІД
+Departament: 
+Duty: true
+09.01.2025 Четвер: Рв
+Departament: фф
+Duty: true
+10.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: true
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: true
+12.01.2025 Неділя: Рв
+Departament: фф
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: фф
+Duty: false
+14.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+15.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: фф
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: false
+18.01.2025  Субота: Рв
+Departament: фф
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: фф
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: фф
+Duty: false
+21.01.2025  Вівторок: ВХ
+Departament: 
+Duty: false
+22.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: фф
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: фф
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: фф
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: фф
+Duty: false
+29.01.2025 Середа: Рв
+Departament: фф
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: фф
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: фф
+Duty: false
+
+Ім'я працівника: Сотников Єгор
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: ЛФ
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: ЛФ
+Duty: false
+04.01.2025 Субота: Рв
+Departament: ЛФ
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: false
+07.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: ЛФ
+Duty: false
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+11.01.2025 Субота: Рв
+Departament: ЛФ
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: ЛФ
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: ЛФ
+Duty: false
+15.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: false
+16.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+17.01.2025 П'ятниця: ОСС
+Departament: 
+Duty: false
+18.01.2025  Субота: Рв
+Departament: ЛФ
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: ЛФ
+Duty: false
+22.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: ЛФ
+Duty: false
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: ЛФ
+Duty: true
+27.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: true
+28.01.2025 Вівторок: Рв
+Departament: ЛФ
+Duty: true
+29.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: true
+30.01.2025 Четвер: Рв
+Departament: ЛФ
+Duty: true
+31.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+
+Ім'я працівника: Тищенко Світлана
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: ЛФ
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: ЛФ
+Duty: false
+08.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: ЛФ
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: ЛФ
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: ЛФ
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: ЛФ
+Duty: false
+15.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: ЛФ
+Duty: false
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: ЛФ
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: ЛФ
+Duty: false
+22.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: ЛФ
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: ЛФ
+Duty: false
+25.01.2025  Субота: Рв
+Departament: ЛФ
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: ЛФ
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: ЛФ
+Duty: false
+29.01.2025 Середа: Рв
+Departament: ЛФ
+Duty: false
+30.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: ЛФ
+Duty: false
+
+Ім'я працівника: Захарченко Геннадій
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+02.01.2025 Четвер: ВІД
+Departament: 
+Duty: true
+03.01.2025 П'ятниця: ВІД
+Departament: 
+Duty: true
+04.01.2025 Субота: ВІД
+Departament: 
+Duty: true
+05.01.2025 Неділя: ВІД
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: Т
+Duty: false
+07.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: Т
+Duty: false
+09.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: Т
+Duty: false
+11.01.2025 Субота: Рв
+Departament: Т
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: Т
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: Т
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: Т
+Duty: false
+15.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+16.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: Т
+Duty: false
+18.01.2025  Субота: Рв
+Departament: Т
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: Т
+Duty: false
+21.01.2025  Вівторок: ВХ
+Departament: 
+Duty: false
+22.01.2025 Середа: Рв
+Departament: Т
+Duty: false
+23.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: Т
+Duty: false
+25.01.2025  Субота: Рв
+Departament: Т
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: Т
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: Т
+Duty: false
+29.01.2025 Середа: Рв
+Departament: Т
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: Т
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: Т
+Duty: false
+
+Ім'я працівника: Кучеренко Олександр
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: Т
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: Т
+Duty: false
+04.01.2025 Субота: Рв
+Departament: Т
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: Т
+Duty: false
+06.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: Т
+Duty: false
+08.01.2025 Середа: Рв
+Departament: Т
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: Т
+Duty: false
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: ВІД
+Departament: 
+Duty: false
+13.01.2025 Понеділок: ВІД
+Departament: 
+Duty: false
+14.01.2025 Вівторок: ВІД
+Departament: 
+Duty: false
+15.01.2025 Середа: Рв
+Departament: Т
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: Т
+Duty: false
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: Т
+Duty: true
+20.01.2025 Понеділок: Рв
+Departament: Т
+Duty: true
+21.01.2025  Вівторок: Рв
+Departament: Т
+Duty: true
+22.01.2025 Середа: Рв
+Departament: Т
+Duty: true
+23.01.2025 Четвер: Рв
+Departament: Т
+Duty: true
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: true
+26.01.2025 Неділя: Рв
+Departament: Т
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: Т
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: Т
+Duty: false
+29.01.2025 Середа: Рв
+Departament: Т
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: Т
+Duty: false
+31.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Ігнатьєва Катерина
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: М
+Duty: false
+04.01.2025 Субота: Рв
+Departament: М
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: М
+Duty: false
+08.01.2025 Середа: Рв
+Departament: М
+Duty: false
+09.01.2025 Четвер: ВІД
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: ВІД
+Departament: 
+Duty: false
+11.01.2025 Субота: Рв
+Departament: М
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: М
+Duty: false
+13.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: М
+Duty: false
+15.01.2025 Середа: Рв
+Departament: М
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: М
+Duty: false
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: М
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: М
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: М
+Duty: false
+22.01.2025 Середа: Рв
+Departament: М
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: М
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: М
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+27.01.2025 Понеділок: Рв
+Departament: М
+Duty: true
+28.01.2025 Вівторок: Рв
+Departament: М
+Duty: true
+29.01.2025 Середа: Рв
+Departament: М
+Duty: true
+30.01.2025 Четвер: Рв
+Departament: М
+Duty: true
+31.01.2025 П'ятниця: Рв
+Departament: М
+Duty: true
+
+Ім'я працівника: Койнаш Анна
+Посада: Експерт
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: М
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: М
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: М
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: М
+Duty: false
+07.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: М
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: М
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: М
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: М
+Duty: false
+14.01.2025 Вівторок: ЛК
+Departament: 
+Duty: false
+15.01.2025 Середа: ЛК
+Departament: 
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: М
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: М
+Duty: false
+18.01.2025  Субота: Рв
+Departament: М
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+20.01.2025 Понеділок: ВІД
+Departament: 
+Duty: true
+21.01.2025  Вівторок: ВІД
+Departament: 
+Duty: true
+22.01.2025 Середа: ВІД
+Departament: 
+Duty: true
+23.01.2025 Четвер: ВІД
+Departament: 
+Duty: true
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+25.01.2025  Субота: Рв
+Departament: М
+Duty: true
+26.01.2025 Неділя: Рв
+Departament: М
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: М
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: М
+Duty: false
+29.01.2025 Середа: Рв
+Departament: М
+Duty: false
+30.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+
+Ім'я працівника: Куліш Інна
+Посада: Консультант
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+02.01.2025 Четвер: Рв
+Departament: 2
+Duty: true
+03.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: true
+04.01.2025 Субота: Рв
+Departament: 2
+Duty: true
+05.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 1
+Duty: false
+07.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+15.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 2
+Duty: false
+22.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+23.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+25.01.2025  Субота: Рв
+Departament: 2
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: 1
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 1
+Duty: false
+29.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+
+Ім'я працівника: Василик Анна
+Посада: Консультант
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: 1
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 1
+Duty: false
+09.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+11.01.2025 Субота: Рв
+Departament: 2
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: 2
+Duty: true
+13.01.2025 Понеділок: Рв
+Departament: 2
+Duty: true
+14.01.2025 Вівторок: Рв
+Departament: 2
+Duty: true
+15.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+16.01.2025 Четвер: Рв
+Departament: 2
+Duty: true
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: true
+19.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 1
+Duty: false
+22.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 1
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+
+Ім'я працівника: Гуляй Любов
+Посада: Консультант
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: 1
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+04.01.2025 Субота: Рв
+Departament: 2
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: 1
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+11.01.2025 Субота: ЛК
+Departament: 
+Duty: false
+12.01.2025 Неділя: ЛК
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+15.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: 1
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+18.01.2025  Субота: Рв
+Departament: 2
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+20.01.2025 Понеділок: ВХ
+Departament: 
+Duty: true
+21.01.2025  Вівторок: Рв
+Departament: 2
+Duty: true
+22.01.2025 Середа: Рв
+Departament: 1
+Duty: true
+23.01.2025 Четвер: Рв
+Departament: 2
+Duty: true
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+25.01.2025  Субота: Рв
+Departament: 2
+Duty: true
+26.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 1
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+30.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: false
+
+Ім'я працівника: Пастухова Альона
+Посада: Консультант
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: false
+04.01.2025 Субота: Рв
+Departament: 2
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: 2
+Duty: true
+06.01.2025 Понеділок: Рв
+Departament: 1
+Duty: true
+07.01.2025 Вівторок: Рв
+Departament: 2
+Duty: true
+08.01.2025 Середа: ВХ
+Departament: 
+Duty: true
+09.01.2025 Четвер: ВХ
+Departament: 
+Duty: true
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: true
+11.01.2025 Субота: Рв
+Departament: 2
+Duty: true
+12.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+13.01.2025 Понеділок: ЛК
+Departament: 
+Duty: false
+14.01.2025 Вівторок: ЛК
+Departament: 
+Duty: false
+15.01.2025 Середа: ЛК
+Departament: 
+Duty: false
+16.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 1
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 2
+Duty: false
+22.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 1
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: ф
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+
+Ім'я працівника: Захарченко Катерина
+Посада: Консультант
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+04.01.2025 Субота: Рв
+Departament: 1
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+07.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 1
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+11.01.2025 Субота: Рв
+Departament: 1
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+15.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: false
+18.01.2025  Субота: Рв
+Departament: 2
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+20.01.2025 Понеділок: ВХ
+Departament: 
+Duty: true
+21.01.2025  Вівторок: Рв
+Departament: 2
+Duty: true
+22.01.2025 Середа: Рв
+Departament: 1
+Duty: true
+23.01.2025 Четвер: Рв
+Departament: 2
+Duty: true
+24.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: true
+25.01.2025  Субота: Рв
+Departament: 2
+Duty: true
+26.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+27.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+28.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 1
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+
+Ім'я працівника: Тиднюк Юлія
+Посада: Консультант
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: true
+06.01.2025 Понеділок: ВІД
+Departament: 
+Duty: true
+07.01.2025 Вівторок: ВІД
+Departament: 
+Duty: true
+08.01.2025 Середа: ВІД
+Departament: 
+Duty: true
+09.01.2025 Четвер: ВІД
+Departament: 
+Duty: true
+10.01.2025 П'ятниця: ВІД
+Departament: 
+Duty: true
+11.01.2025 Субота: ВІД
+Departament: 
+Duty: true
+12.01.2025 Неділя: ВІД
+Departament: 
+Duty: false
+13.01.2025 Понеділок: ВІД
+Departament: 
+Duty: false
+14.01.2025 Вівторок: ВІД
+Departament: 
+Duty: false
+15.01.2025 Середа: ВІД
+Departament: 
+Duty: false
+16.01.2025 Четвер: ОСС
+Departament: 
+Duty: false
+17.01.2025 П'ятниця: ОСС
+Departament: 
+Duty: false
+18.01.2025  Субота: ОСС
+Departament: 
+Duty: false
+19.01.2025 Неділя: ОСС
+Departament: 
+Duty: false
+20.01.2025 Понеділок: ОСС
+Departament: 
+Duty: false
+21.01.2025  Вівторок: ОСС
+Departament: 
+Duty: false
+22.01.2025 Середа: ОСС
+Departament: 
+Duty: false
+23.01.2025 Четвер: ОСС
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: ОСС
+Departament: 
+Duty: false
+25.01.2025  Субота: ОСС
+Departament: 
+Duty: false
+26.01.2025 Неділя: ОСС
+Departament: 
+Duty: false
+27.01.2025 Понеділок: ОСС
+Departament: 
+Duty: false
+28.01.2025 Вівторок: ОСС
+Departament: 
+Duty: false
+29.01.2025 Середа: ОСС
+Departament: 
+Duty: false
+30.01.2025 Четвер: ОСС
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: ОСС
+Departament: 
+Duty: false
+
+Ім'я працівника: Чухно Вікторія
+Посада: Консультант
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+09.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+11.01.2025 Субота: Рв
+Departament: 2
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+13.01.2025 Понеділок: ВХ
+Departament: 
+Duty: false
+14.01.2025 Вівторок: ВХ
+Departament: 
+Duty: false
+15.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: 1
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: 2
+Duty: false
+18.01.2025  Субота: Рв
+Departament: 2
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 2
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 1
+Duty: false
+22.01.2025 Середа: Рв
+Departament: 2
+Duty: false
+23.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: false
+25.01.2025  Субота: Рв
+Departament: 2
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: 2
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 1
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 2
+Duty: false
+29.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 2
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 1
+Duty: false
+
+Ім'я працівника: Артеменко Володимир
+Посада: стажер
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВХ
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+04.01.2025 Субота: Рв
+Departament: 
+Duty: false
+05.01.2025 Неділя: Рв
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: Рв
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+15.01.2025 Середа: Рв
+Departament: 
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+17.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: Рв
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 
+Duty: false
+22.01.2025 Середа: Рв
+Departament: 
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: ВХ
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: Рв
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+
+Ім'я працівника: Яблонська Світлана
+Посада: Зборщик POS
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+15.01.2025 Середа: Рв
+Departament: 
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 
+Duty: false
+22.01.2025 Середа: Рв
+Departament: 
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+
+Ім'я працівника: Бужин Аліса
+Посада: Мерчендайзер
+01.01.2025 Середа: ВХ
+Departament: 
+Duty: false
+02.01.2025 Четвер: ВІД
+Departament: 
+Duty: false
+03.01.2025 П'ятниця: ВІД
+Departament: 
+Duty: false
+04.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+05.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+06.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+07.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+08.01.2025 Середа: Рв
+Departament: 
+Duty: false
+09.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+10.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+11.01.2025 Субота: ВХ
+Departament: 
+Duty: false
+12.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+13.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+14.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+15.01.2025 Середа: Рв
+Departament: 
+Duty: false
+16.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+17.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+18.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+19.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+20.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+21.01.2025  Вівторок: Рв
+Departament: 
+Duty: false
+22.01.2025 Середа: Рв
+Departament: 
+Duty: false
+23.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+24.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false
+25.01.2025  Субота: ВХ
+Departament: 
+Duty: false
+26.01.2025 Неділя: ВХ
+Departament: 
+Duty: false
+27.01.2025 Понеділок: Рв
+Departament: 
+Duty: false
+28.01.2025 Вівторок: Рв
+Departament: 
+Duty: false
+29.01.2025 Середа: Рв
+Departament: 
+Duty: false
+30.01.2025 Четвер: Рв
+Departament: 
+Duty: false
+31.01.2025 П'ятниця: Рв
+Departament: 
+Duty: false

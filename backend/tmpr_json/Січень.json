@@ -1,0 +1,5188 @@
+{
+  "employees": [
+    {
+      "name": "Шкомар Сніжана",
+      "position": "керівник",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Анода Дар'я",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Кононенко Вікторія",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": true
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "К",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Ємельяненко Аліна",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Якимець Світлана",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Кот Марина",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": true
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Дуброва Денис",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Поліщук Анатолій",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        }
+      ]
+    },
+    {
+      "name": "Койнаш Лілія",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "08.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": true
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "Рс",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Анчевський Євгеній",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": true
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": true
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": true
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": true
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": true
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Сюрха Орест",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "08.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": true
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": true
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "фф",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Сотников Єгор",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": true
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": true
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": true
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": true
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": true
+        },
+        {
+          "date": "31.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        }
+      ]
+    },
+    {
+      "name": "Тищенко Світлана",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "ЛФ",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Захарченко Геннадій",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Кучеренко Олександр",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": true
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": true
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": true
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": true
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": true
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "Т",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Ігнатьєва Катерина",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": true
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": true
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": true
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": true
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": true
+        }
+      ]
+    },
+    {
+      "name": "Койнаш Анна",
+      "position": "Експерт",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "21.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "22.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "23.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": true
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "М",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Куліш Інна",
+      "position": "Консультант",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": true
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Василик Анна",
+      "position": "Консультант",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Гуляй Любов",
+      "position": "Консультант",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": true
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Пастухова Альона",
+      "position": "Консультант",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": true
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "08.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ЛК",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "ф",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Захарченко Катерина",
+      "position": "Консультант",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": true
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": true
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Тиднюк Юлія",
+      "position": "Консультант",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "06.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "07.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "08.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": true
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "ОСС",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Чухно Вікторія",
+      "position": "Консультант",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "2",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "1",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Артеменко Володимир",
+      "position": "стажер",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Яблонська Світлана",
+      "position": "Зборщик POS",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        }
+      ]
+    },
+    {
+      "name": "Бужин Аліса",
+      "position": "Мерчендайзер",
+      "schedule": [
+        {
+          "date": "01.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "02.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "03.01.2025",
+          "action": "ВІД",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "04.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "05.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "06.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "07.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "08.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "09.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "10.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "11.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "12.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "13.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "14.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "15.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "16.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "17.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "18.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "19.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "20.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "21.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "22.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "23.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "24.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "25.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "26.01.2025",
+          "action": "ВХ",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "27.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "28.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "29.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "30.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        },
+        {
+          "date": "31.01.2025",
+          "action": "Рв",
+          "department": "",
+          "duty": false
+        }
+      ]
+    }
+  ]
+}
