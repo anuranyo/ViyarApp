@@ -33,7 +33,7 @@ exports.parseExcelToTxt = async (req, res) => {
         const uploadedFiles = req.files; // Retrieve uploaded files from the request
 
         if (!uploadedFiles || uploadedFiles.length === 0) {
-            return res.status(400).send('No files uploaded.'); // Send error response if no files are uploaded
+            return console.log('No files uploaded.'); // Send error response if no files are uploaded
         }
 
         uploadedFiles.forEach((file) => {
@@ -103,10 +103,11 @@ exports.parseExcelToTxt = async (req, res) => {
             });
         });
 
+        return txtFilePaths; // Return array of TXT file paths
+
         //res.status(200).send('Files uploaded and converted to TXT successfully.');
     } catch (error) {
         console.error('Error processing files:', error); // Log error
-        res.status(500).send('Error processing files.'); // Send error response
     }
 };
 
@@ -181,20 +182,14 @@ exports.parseTxtToJson = (req, res) => {
         const jsonFilePath = path.join(JSON_DIR, jsonFileName); // Determine JSON file path
 
         fs.writeFileSync(jsonFilePath, JSON.stringify({ employees }, null, 2), 'utf8'); // Write JSON file
-        console.log(`Parsed JSON saved: ${jsonFilePath}`); // Log success message
+        //console.log(`Parsed JSON saved: ${jsonFilePath}`); // Log success message
 
         //res.status(200).send(`JSON file created at ${jsonFilePath}`);
     } catch (error) {
         console.error('Error processing file:', error);
-        res.status(500).send('Error processing file.'); // Send error response
     }
 };
 
-/**
- * Parses uploaded Excel files directly to JSON format.
- * @param {Object} req - The request object containing uploaded files.
- * @param {Object} res - The response object for sending responses.
- */
 /**
  * Parses uploaded Excel files directly to JSON format.
  * @param {Object} req - The request object containing uploaded files.
@@ -202,23 +197,32 @@ exports.parseTxtToJson = (req, res) => {
  */
 exports.parseExcelToJson = async (req, res) => {
     try {
-        // First, parse the Excel file to a text file
-        const txtFilePaths = await exports.parseExcelToTxt(req, res); // Convert Excel to TXT first
+        const filePaths = req.body.filePaths; // Extract file paths from request body
 
-        // Then, parse the text file to JSON
-        const uploadedFiles = req.files; // Retrieve uploaded files from the request
-        if (!uploadedFiles || uploadedFiles.length === 0) {
-            return res.status(400).send('No files uploaded.'); // Send error response if no files are uploaded
+        if (!filePaths || !Array.isArray(filePaths)) {
+            throw new Error('Invalid or missing file paths.');
         }
 
-        // Process each uploaded file
-        txtFilePaths.forEach((txtFilePath) => { // Process each TXT file
-            req.body.filePath = txtFilePath;
-        });
-        exports.parseTxtToJson(req, res); // Convert TXT to JSON
+        console.log('Processing file paths:', filePaths);
 
+        // Process each file
+        for (const filePath of filePaths) {
+            const txtFilePaths = await exports.parseExcelToTxt({ files: [{ path: filePath }] });
+            console.log('Generated TXT file paths:', txtFilePaths);
+
+            if (Array.isArray(txtFilePaths)) {
+                for (const txtFilePath of txtFilePaths) {
+                    exports.parseTxtToJson({ body: { filePath: txtFilePath } }, res);
+                }
+            }
+        }
+
+        console.log('All files successfully converted to JSON.');
     } catch (error) {
-        console.error('Error processing files:', error); // Log error
-        res.status(500).send('Error processing files.'); // Send error response
+        console.error('Error processing files:', error);
+        res.status(500).send('Error during file processing.');
     }
 };
+
+
+

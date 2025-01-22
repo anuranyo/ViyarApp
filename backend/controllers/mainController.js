@@ -8,35 +8,44 @@ const Schedule = require('../models/Schedule');
  * @param {Array} files - Array of file paths (JSON files).
  * @returns {Promise<void>}
  */
-const addDataFromJsonAndClean = async (files) => {
+exports.addDataFromJsonAndClean = async (files) => {
     try {
         console.log('Starting data import...');
         for (const filePath of files) {
+            if (path.extname(filePath).toLowerCase() !== '.json') {
+                console.warn(`Skipping non-JSON file: ${filePath}`);
+                continue;
+            }
+
             console.log(`Processing file: ${filePath}`);
             const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
-            // Check if the JSON data contains employees
             if (jsonData.employees) {
                 for (const employeeData of jsonData.employees) {
-                    await Employee.create(employeeData);
-                }
-                console.log(`Employees added from file: ${filePath}`);
-            }
+                    await Employee.create({
+                        name: employeeData.name,
+                        position: employeeData.position,
+                    });
 
-            // Check if the JSON data contains schedules
-            if (jsonData.schedules) {
-                for (const scheduleData of jsonData.schedules) {
-                    await Schedule.create(scheduleData);
+                    for (const schedule of employeeData.schedule) {
+                        await Schedule.create({
+                            employeeName: employeeData.name,
+                            date: schedule.date,
+                            action: schedule.action,
+                            department: schedule.department,
+                            duty: schedule.duty,
+                        });
+                    }
                 }
-                console.log(`Schedules added from file: ${filePath}`);
+                console.log(`Data from file ${filePath} added successfully.`);
+            } else {
+                console.warn(`No employees found in file: ${filePath}`);
             }
         }
 
         console.log('Data import completed. Cleaning up folders...');
         await cleanFolders([
-            path.join(__dirname, 'backend', 'tmpr_files'),
-            path.join(__dirname, 'backend', 'tmpr_json'),
-            path.join(__dirname, 'backend', 'uploads'),
+            //path.join(__dirname, 'tmpr_json'),
         ]);
         console.log('All temporary folders cleaned.');
     } catch (error) {
@@ -44,6 +53,7 @@ const addDataFromJsonAndClean = async (files) => {
         throw error;
     }
 };
+
 
 /**
  * Remove all files from the specified folders.
@@ -65,8 +75,4 @@ const cleanFolders = async (folders) => {
             console.error(`Error cleaning folder ${folder}:`, error);
         }
     }
-};
-
-module.exports = {
-    addDataFromJsonAndClean,
 };

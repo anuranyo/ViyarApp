@@ -6,28 +6,27 @@ dotenv.config();
 // Function to reset the database
 const resetDatabase = async () => {
     try {
-        // Connect to MongoDB using the provided URI in environment variables
         console.log('Attempting to connect to MongoDB...');
         await mongoose.connect(process.env.MONGO_URI, {
-            serverSelectionTimeoutMS: 30000, // Set timeout for server selection
+            serverSelectionTimeoutMS: 30000,
         });
         console.log('MongoDB connected successfully.');
 
-        // Drop the entire database to reset it
+        // Получаем текущую базу данных из соединения
+        const db = mongoose.connection;
+
         console.log('Resetting the database...');
-        const db = mongoose.connection; // Get the current database connection
-        await db.dropDatabase(); // Drop all collections and data
+        await db.dropDatabase(); // Удаляет всю базу данных, к которой вы подключены
         console.log('Database reset complete.');
 
-        // Disconnect from MongoDB
         await mongoose.disconnect();
         console.log('MongoDB connection closed.');
     } catch (error) {
-        // Log specific error details
         logDatabaseError(error);
-        process.exit(1); // Exit the process with failure code
+        process.exit(1);
     }
 };
+
 
 // Function to handle and log errors with detailed context
 const logDatabaseError = (error) => {
