@@ -76,11 +76,4 @@ This project is licensed under the [Apache 2.0 License](./LICENSE).
 - [Mention libraries, tools, or contributors if applicable]
 - Special thanks to [Contributor Name] for their significant contributions.
 
----
 
-Feel free to [open an issue](https://github.com/anuranyo/ViyarApp/issues) for any questions or suggestions!
-```
-
-### Suggestions:
-**a.** Add specific instructions for backend and frontend setup in separate sections.  
-**b.** Include screenshots or a demo link for a better understanding of the project.
