@@ -14,9 +14,6 @@ const EmployeeSchema = new mongoose.Schema({
     
     // The position or job title of the employee, which is a required string
     position: { type: String, required: true },
-    
-    // The department where the employee works, which is a required string
-    department: { type: String, required: true }
 });
 
 // Export the Employee model based on the EmployeeSchema

@@ -3,6 +3,8 @@ const path = require('path');
 const Employee = require('../models/Employee');
 const Schedule = require('../models/Schedule');
 
+const DEFAULT_DATE = new Date('2000-01-01'); // Default date for dateOfBirth and hireDate
+
 /**
  * Add data from JSON files to the database and clean up temporary folders.
  * @param {Array} files - Array of file paths (JSON files).
@@ -22,20 +24,51 @@ exports.addDataFromJsonAndClean = async (files) => {
 
             if (jsonData.employees) {
                 for (const employeeData of jsonData.employees) {
-                    await Employee.create({
-                        name: employeeData.name,
-                        position: employeeData.position,
-                    });
+                    // Set default values for missing fields
+                    const dateOfBirth = DEFAULT_DATE;
+                    const hireDate = DEFAULT_DATE;
+
+                    // Insert or update the employee in the database
+                    const employee = await Employee.findOneAndUpdate(
+                        { name: employeeData.name }, // Match by name
+                        {
+                            name: employeeData.name,
+                            position: employeeData.position,
+                            dateOfBirth,
+                            hireDate,
+                        },
+                        { upsert: true, new: true, setDefaultsOnInsert: true } // Create if not exists
+                    );
 
                     for (const schedule of employeeData.schedule) {
-                        await Schedule.create({
-                            employeeName: employeeData.name,
-                            date: schedule.date,
+                        const rawDate = schedule.date.split(' ')[0]; // Extract the date portion (e.g., "09.01.2025")
+                        const [day, month, year] = rawDate.split('.').map(Number); // Split and parse the date parts
+                        const parsedDate = new Date(Date.UTC(year, month - 1, day)); // Construct a UTC date
+                    
+                        if (isNaN(parsedDate.getTime())) {
+                            console.warn(`Invalid date format in schedule: ${schedule.date}`);
+                            continue; // Skip invalid dates
+                        }
+                    
+                        const scheduleData = {
+                            employee: employee._id, // Reference to the Employee
+                            date: parsedDate, // Use the UTC date
                             action: schedule.action,
-                            department: schedule.department,
+                            department: schedule.department || null, // Keep department null if empty
                             duty: schedule.duty,
-                        });
+                        };
+                    
+                        try {
+                            await Schedule.create(scheduleData); // Create schedule document
+                        } catch (error) {
+                            if (error.code === 11000) {
+                                console.warn(`Duplicate schedule entry for employee ${employee.name} on ${schedule.date}`);
+                            } else {
+                                throw error;
+                            }
+                        }
                     }
+                    
                 }
                 console.log(`Data from file ${filePath} added successfully.`);
             } else {
@@ -45,7 +78,7 @@ exports.addDataFromJsonAndClean = async (files) => {
 
         console.log('Data import completed. Cleaning up folders...');
         await cleanFolders([
-            //path.join(__dirname, 'tmpr_json'),
+            path.join(__dirname, '../tmpr_json'), // Adjust path as needed
         ]);
         console.log('All temporary folders cleaned.');
     } catch (error) {
@@ -53,7 +86,6 @@ exports.addDataFromJsonAndClean = async (files) => {
         throw error;
     }
 };
-
 
 /**
  * Remove all files from the specified folders.

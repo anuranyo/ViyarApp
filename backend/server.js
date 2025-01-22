@@ -59,51 +59,38 @@ const upload = multer({ storage });
 
 // Обработка загрузки файлов
 // app.post('/upload', upload.array('files', 10), parseExcelToTxt);
-
 app.post('/upload', upload.array('files', 10), async (req, res) => {
     try {
         console.log('Files uploaded:', req.files);
         const filePaths = [];
 
-        // Шаг 1: Переименование и анализ каждого файла
         for (const file of req.files) {
-            const oldPath = file.path; // Текущий путь
+            const oldPath = file.path;
             const workbook = xlsx.readFile(oldPath);
             const firstSheetName = workbook.SheetNames[0];
             const sheet = workbook.Sheets[firstSheetName];
             const rows = xlsx.utils.sheet_to_json(sheet, { header: 1 });
 
-            // Извлекаем имя месяца из данных Excel
-            const dateString = rows[0]?.[4]; // Предполагается, что дата в первом ряду, 5-й колонке
-            if (!dateString) {
-                console.warn(`Date not found in file: ${file.originalname}`);
-                continue; // Пропускаем файл
-            }
+            const dateString = rows[0]?.[4];
+            if (!dateString) continue;
 
-            const monthNumber = parseInt(dateString.split('.')[1], 10); // Номер месяца
-            const monthName = monthNames[monthNumber - 1]; // Имя месяца
-            if (!monthName) {
-                console.warn(`Invalid month number in file: ${file.originalname}`);
-                continue;
-            }
+            const monthNumber = parseInt(dateString.split('.')[1], 10);
+            const monthName = monthNames[monthNumber - 1];
+            if (!monthName) continue;
 
-            // Новое имя файла
             const newFileName = `${monthName}.xls`;
             const newPath = path.join(UPLOAD_DIR, newFileName);
 
-            // Переименование файла
             fs.renameSync(oldPath, newPath);
-            filePaths.push(newPath); // Save the new path for processing
-            console.log(`File renamed to: ${newPath}`);
+            filePaths.push(newPath);
         }
 
         console.log("File paths for processing:", filePaths);
 
-        // Шаг 2: Конвертация Excel в JSON
         if (filePaths.length > 0) {
-            await parseExcelToJson({ body: { filePaths } }, res); // Pass paths in req.body
-            console.log('Excel files successfully converted to JSON.');
-            res.status(200).send('Files uploaded and processed successfully.');
+            const jsonPaths = await parseExcelToJson({ body: { filePaths } }, res);
+            await addDataFromJsonAndClean(jsonPaths);
+            res.status(200).send('Files uploaded, processed, and data added to the database successfully.');
         } else {
             res.status(400).send('No valid files found for processing.');
         }

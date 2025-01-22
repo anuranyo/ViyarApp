@@ -68,7 +68,7 @@ exports.parseExcelToTxt = async (req, res) => {
 
                     for (let i = 4; i < limit; i++) {
                         let isDuty = false; // Initialize duty status
-                        const date = headers[i]; // Extract date from headers
+                        const date = headers[i].split(' ')[0]; // Extract date from headers
                         const action = row[i] || "Рв"; // Default action if not specified
                         const department = positionCell === "керівник" ? "" : rows[index + 1]?.[i] || ""; // Determine department
                         if (positionCell == "керівник") { // Check duty status for "керівник"
@@ -121,50 +121,45 @@ exports.parseExcelToTxt = async (req, res) => {
  */
 exports.parseTxtToJson = (req, res) => {
     try {
-        const { filePath } = req.body; // Extract file path from request body
+        const { filePath } = req.body;
 
         if (!filePath || !fs.existsSync(filePath)) {
-            return res.status(400).send('Invalid or missing file path.'); // Send error response if file path is invalid
+            throw new Error('Invalid or missing file path.');
         }
 
-        const lines = fs.readFileSync(filePath, 'utf8').split('\n').map(line => line.trim()); // Read and trim lines from TXT file
-        const employees = []; // Array to store employee data
-        let currentEmployee = null; // Initialize current employee object
+        const lines = fs.readFileSync(filePath, 'utf8').split('\n').map(line => line.trim());
+        const employees = [];
+        let currentEmployee = null;
 
         lines.forEach((line, idx) => {
             if (line.startsWith("Ім'я працівника:")) {
-                // Save previous employee if exists
                 if (currentEmployee) {
                     employees.push(currentEmployee);
                 }
-        
-                // Start a new employee
+
                 const name = line.split(":")[1].trim();
                 currentEmployee = { name, position: "", schedule: [] };
             } else if (line.startsWith("Посада:")) {
-                // Set position
                 if (currentEmployee) {
                     currentEmployee.position = line.split(":")[1].trim();
                 }
             } else if (line.match(/^\d{2}\.\d{2}\.\d{4}/)) {
-                // Process line with date and schedule
                 const [datePart, ...rest] = line.split(":");
-                const [date, day] = datePart.trim().split(' ');
+                const date = datePart.trim();
                 const action = rest.join(':').trim();
-        
+
                 const departmentLine = lines[idx + 1]?.trim() || "";
                 const dutyLine = lines[idx + 2]?.trim() || "";
-        
+
                 const department = departmentLine.startsWith("Departament:")
                     ? departmentLine.split(":")[1].trim()
                     : "";
-        
+
                 const duty = dutyLine.startsWith("Duty:") && dutyLine.split(":")[1]?.trim().toLowerCase() === "true";
-        
+
                 if (currentEmployee) {
                     currentEmployee.schedule.push({
                         date,
-                        //day,
                         action,
                         department,
                         duty,
@@ -172,23 +167,23 @@ exports.parseTxtToJson = (req, res) => {
                 }
             }
         });
-        
-        // Add the last employee
+
         if (currentEmployee) {
             employees.push(currentEmployee);
         }
-        
-        const jsonFileName = `${path.basename(filePath, path.extname(filePath))}.json`; // Construct JSON file name
-        const jsonFilePath = path.join(JSON_DIR, jsonFileName); // Determine JSON file path
 
-        fs.writeFileSync(jsonFilePath, JSON.stringify({ employees }, null, 2), 'utf8'); // Write JSON file
-        //console.log(`Parsed JSON saved: ${jsonFilePath}`); // Log success message
+        const jsonFileName = `${path.basename(filePath, path.extname(filePath))}.json`;
+        const jsonFilePath = path.join(JSON_DIR, jsonFileName);
 
-        //res.status(200).send(`JSON file created at ${jsonFilePath}`);
+        fs.writeFileSync(jsonFilePath, JSON.stringify({ employees }, null, 2), 'utf8');
+        console.log(`Parsed JSON saved: ${jsonFilePath}`);
+        return jsonFilePath; // Return JSON file path
     } catch (error) {
         console.error('Error processing file:', error);
+        throw error;
     }
 };
+
 
 /**
  * Parses uploaded Excel files directly to JSON format.
@@ -205,22 +200,29 @@ exports.parseExcelToJson = async (req, res) => {
 
         console.log('Processing file paths:', filePaths);
 
+        const jsonPaths = []; // Array to collect JSON file paths
+
         // Process each file
         for (const filePath of filePaths) {
             const txtFilePaths = await exports.parseExcelToTxt({ files: [{ path: filePath }] });
-            console.log('Generated TXT file paths:', txtFilePaths);
 
             if (Array.isArray(txtFilePaths)) {
                 for (const txtFilePath of txtFilePaths) {
-                    exports.parseTxtToJson({ body: { filePath: txtFilePath } }, res);
+                    const mockReq = { body: { filePath: txtFilePath } };
+                    const jsonFilePath = exports.parseTxtToJson(mockReq, res);
+
+                    if (jsonFilePath) {
+                        jsonPaths.push(jsonFilePath);
+                    }
                 }
             }
         }
 
-        console.log('All files successfully converted to JSON.');
+        console.log('Generated JSON file paths:', jsonPaths);
+        return jsonPaths; // Return collected JSON file paths
     } catch (error) {
         console.error('Error processing files:', error);
-        res.status(500).send('Error during file processing.');
+        throw error;
     }
 };
 
