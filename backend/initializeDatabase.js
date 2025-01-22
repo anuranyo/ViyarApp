@@ -1,54 +1,86 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-// Импорт моделей
-const Role = require('./models/Role');
+// Import models
 const Employee = require('./models/Employee');
-const DateModel = require('./models/Date');
-const Status = require('./models/Status');
 const Schedule = require('./models/Schedule');
-const Duty = require('./models/Duty');
 
 dotenv.config();
 
+/**
+ * Initialize the database structure for viyarSchedule.
+ */
 const initializeDatabase = async () => {
     try {
-        // Подключение к MongoDB
+        // Connect to MongoDB
         console.log('Attempting to connect to MongoDB...');
-        await mongoose.connect(process.env.MONGO_URI, {
-            dbName: 'viyarSchedule', 
-            serverSelectionTimeoutMS: 5000,
-        });
-        console.log('MongoDB connected...');
+        await connectToDatabase();
+        console.log('MongoDB connected successfully.');
 
-        // Инициализация пустых коллекций
+        // Initialize empty collections
         console.log('Initializing empty collections for viyarSchedule...');
-        await Role.init();
-        await Employee.init();
-        await DateModel.init();
-        await Status.init();
-        await Schedule.init();
-        await Duty.init();
-        console.log('Empty database structure for viyarSchedule created successfully!');
+        await initializeCollections();
+        console.log('Empty database structure for viyarSchedule created successfully.');
 
-        // Закрытие соединения
-        await mongoose.disconnect();
+        // Close the database connection
+        await closeDatabaseConnection();
         console.log('MongoDB connection closed.');
-    } catch (err) {
-        console.error('Failed to initialize database:', err.message);
-        console.error('Error details:', err);
-        if (err.name === 'MongoNetworkError') {
-            console.error('Network-related error. Please check your network connection.');
-        } else if (err.name === 'MongoParseError') {
-            console.error('URI parsing error. Please check your MongoDB URI.');
-        } else if (err.name === 'MongoTimeoutError') {
-            console.error('Connection timeout. The server took too long to respond.');
-        } else {
-            console.error('An unknown error occurred:', err);
-        }
-        process.exit(1);
+    } catch (error) {
+        handleError(error);
     }
 };
 
-// Запуск скрипта
+/**
+ * Connect to the MongoDB database.
+ */
+const connectToDatabase = async () => {
+    await mongoose.connect(process.env.MONGO_URI, {
+        dbName: 'viyarSchedule',
+        serverSelectionTimeoutMS: 5000, // Timeout for server selection
+    });
+};
+
+/**
+ * Initialize all database collections by calling `.init()` on each model.
+ */
+const initializeCollections = async () => {
+    const models = [Employee, Schedule];
+    for (const model of models) {
+        await model.init();
+    }
+};
+
+/**
+ * Close the MongoDB connection.
+ */
+const closeDatabaseConnection = async () => {
+    await mongoose.disconnect();
+};
+
+/**
+ * Handle and log errors during database initialization.
+ * @param {Error} error - The error object.
+ */
+const handleError = (error) => {
+    console.error('Failed to initialize database:', error.message);
+    console.error('Error details:', error);
+
+    switch (error.name) {
+        case 'MongoNetworkError':
+            console.error('Network-related error. Please check your network connection.');
+            break;
+        case 'MongoParseError':
+            console.error('URI parsing error. Please check your MongoDB URI.');
+            break;
+        case 'MongoTimeoutError':
+            console.error('Connection timeout. The server took too long to respond.');
+            break;
+        default:
+            console.error('An unknown error occurred:', error);
+    }
+
+    process.exit(1); // Exit the script with a failure code
+};
+
+// Execute the script
 initializeDatabase();
