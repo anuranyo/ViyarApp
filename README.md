@@ -1,6 +1,3 @@
-Here's a draft for a `README.md` file for the **ViyarApp** project. You can customize it further to include additional details about the project, usage, or contributors as needed.
-
-```markdown
 # ViyarApp
 
 ViyarApp is a web application designed to [briefly describe what the app does, e.g., "streamline task management" or "connect people with shared interests"]. 
