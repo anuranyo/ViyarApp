@@ -240,3 +240,68 @@ exports.getSchedulesByDepartments = async (req, res) => {
         return res.status(500).json({ error: 'Internal server error.' });
     }
 };
+
+/**
+ * Search for employees and schedules by department or name.
+ * @route GET /findData/:query
+ * @param {string} query - Search term for name or department.
+ * @returns {Object} - Matched employees and their schedules.
+ */
+exports.findData = async (req, res) => {
+    try {
+        const { query } = req.params;
+
+        if (!query) {
+            return res.status(400).json({ error: 'Search query is required.' });
+        }
+
+        // Step 1: Search employees by name (partial match, case-insensitive)
+        const employeesByName = await Employee.find({
+            name: new RegExp(query, 'i'),
+        });
+
+        // Step 2: Search schedules by department (partial match, case-insensitive)
+        const schedulesByDepartment = await Schedule.find({
+            department: new RegExp(query, 'i'),
+        });
+
+        // Extract unique employee IDs from the schedules by department
+        const employeeIdsFromSchedules = [
+            ...new Set(schedulesByDepartment.map((schedule) => schedule.employee.toString())),
+        ];
+
+        // Fetch employees corresponding to the IDs from the schedules
+        const employeesByDepartment = await Employee.find({
+            _id: { $in: employeeIdsFromSchedules },
+        });
+
+        // Combine results and remove duplicates
+        const allEmployees = [
+            ...new Map(
+                [...employeesByName, ...employeesByDepartment].map((employee) => [employee._id.toString(), employee])
+            ).values(),
+        ];
+
+        if (allEmployees.length === 0) {
+            return res.status(404).json({ message: 'No matches found for the query.' });
+        }
+
+        // Fetch all schedules for these employees
+        const allEmployeeIds = allEmployees.map((employee) => employee._id);
+        const allSchedules = await Schedule.find({ employee: { $in: allEmployeeIds } });
+
+        // Map schedules to their corresponding employees
+        const result = allEmployees.map((employee) => {
+            return {
+                name: employee.name,
+                position: employee.position,
+                schedules: allSchedules.filter((schedule) => schedule.employee.equals(employee._id)),
+            };
+        });
+
+        return res.status(200).json(result);
+    } catch (error) {
+        console.error('Error during search operation:', error);
+        return res.status(500).json({ error: 'Internal server error.' });
+    }
+};
