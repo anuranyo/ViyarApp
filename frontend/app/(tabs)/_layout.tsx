@@ -2,10 +2,17 @@ import React from 'react';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Link, Tabs } from 'expo-router';
 import { Pressable } from 'react-native';
+import { LogBox } from 'react-native';
 
 import Colors from '@/constants/Colors';
 import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
+
+// Отключение определенного предупреждения
+LogBox.ignoreLogs([
+  'VirtualizedLists should never be nested inside plain ScrollViews', // Текст предупреждения
+]);
+
 
 // You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
 function TabBarIcon(props: {
@@ -14,6 +21,7 @@ function TabBarIcon(props: {
 }) {
   return <FontAwesome size={28} style={{ marginBottom: -3 }} {...props} />;
 }
+
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
