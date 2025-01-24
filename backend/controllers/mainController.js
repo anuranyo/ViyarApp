@@ -184,3 +184,59 @@ exports.getAllSchedulesByUser = async (req, res) => {
         return res.status(500).json({ error: 'Internal server error.' });
     }
 };
+
+/**
+ * Get schedules for employees in specified departments.
+ * @route GET /api/getByDepartments
+ * @query {Array} departments - Comma-separated list of department names.
+ * @returns {Object} - Employees and their schedules.
+ */
+exports.getSchedulesByDepartments = async (req, res) => {
+    try {
+        const { departments } = req.query;
+
+        if (!departments) {
+            return res.status(400).json({ error: 'Departments are required.' });
+        }
+
+        // Normalize the department list
+        const departmentList = departments.split(',').map((d) => d.trim());
+        console.log('Normalized Department List:', departmentList);
+
+        // Step 1: Query the Schedule collection for employees in the specified departments
+        const departmentSchedules = await Schedule.find({
+            department: { $in: departmentList.map((d) => new RegExp(`^${d}$`, 'i')) },
+        });
+
+        if (departmentSchedules.length === 0) {
+            return res.status(404).json({ message: 'No employees found for the specified departments.' });
+        }
+
+        // Extract unique employee IDs from the schedules
+        const employeeIds = [...new Set(departmentSchedules.map((schedule) => schedule.employee))];
+
+        // Step 2: Fetch all employees matching the extracted IDs
+        const employees = await Employee.find({ _id: { $in: employeeIds } });
+
+        if (employees.length === 0) {
+            return res.status(404).json({ message: 'No employees found for the specified departments.' });
+        }
+
+        // Step 3: Fetch all schedules for these employees (ignoring department filtering)
+        const allSchedules = await Schedule.find({ employee: { $in: employeeIds } });
+
+        // Step 4: Map schedules to their corresponding employees
+        const result = employees.map((employee) => {
+            return {
+                name: employee.name,
+                position: employee.position,
+                schedules: allSchedules.filter((schedule) => schedule.employee.equals(employee._id)),
+            };
+        });
+
+        return res.status(200).json(result);
+    } catch (error) {
+        console.error('Error fetching schedules by departments:', error);
+        return res.status(500).json({ error: 'Internal server error.' });
+    }
+};
