@@ -12,6 +12,7 @@ exports.addDataFromJsonAndClean = async (files) => {
     try {
         console.log('Starting data import...');
         for (const filePath of files) {
+            // Skip files that are not JSON
             if (path.extname(filePath).toLowerCase() !== '.json') {
                 console.warn(`Skipping non-JSON file: ${filePath}`);
                 continue;
@@ -20,6 +21,7 @@ exports.addDataFromJsonAndClean = async (files) => {
             console.log(`Processing file: ${filePath}`);
             const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
+            // Check if the JSON file contains employees
             if (!jsonData.employees || jsonData.employees.length === 0) {
                 console.warn(`No employees found in file: ${filePath}`);
                 continue;
@@ -87,6 +89,7 @@ const deleteSchedulesForDate = async (date) => {
  */
 const insertSchedulesFromJson = async (jsonData) => {
     for (const employeeData of jsonData.employees) {
+        // Find or create an employee record
         const employee = await Employee.findOneAndUpdate(
             { name: employeeData.name },
             {
@@ -101,6 +104,7 @@ const insertSchedulesFromJson = async (jsonData) => {
             const [day, month, year] = rawDate.split('.').map(Number);
             const parsedDate = new Date(Date.UTC(year, month - 1, day));
 
+            // Validate the date format
             if (isNaN(parsedDate.getTime())) {
                 console.warn(`Invalid date format in schedule: ${schedule.date}`);
                 continue;
@@ -115,6 +119,7 @@ const insertSchedulesFromJson = async (jsonData) => {
             };
 
             try {
+                // Insert the schedule into the database
                 await Schedule.create(scheduleData);
             } catch (error) {
                 console.error(`Error inserting schedule for employee ${employee.name} on ${schedule.date}:`, error);
@@ -135,6 +140,7 @@ const cleanFolders = async (folders) => {
             for (const file of files) {
                 const filePath = path.join(folder, file);
                 if (fs.statSync(filePath).isFile()) {
+                    // Delete the file
                     fs.unlinkSync(filePath);
                 }
             }
