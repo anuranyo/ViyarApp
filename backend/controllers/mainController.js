@@ -3,8 +3,6 @@ const path = require('path');
 const Employee = require('../models/Employee');
 const Schedule = require('../models/Schedule');
 
-const DEFAULT_DATE = new Date('2000-01-01'); // Default date for dateOfBirth and hireDate
-
 /**
  * Add data from JSON files to the database and clean up temporary folders.
  * @param {Array} files - Array of file paths (JSON files).
@@ -22,72 +20,106 @@ exports.addDataFromJsonAndClean = async (files) => {
             console.log(`Processing file: ${filePath}`);
             const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
-            if (jsonData.employees) {
-                for (const employeeData of jsonData.employees) {
-                    // Set default values for missing fields
-                    const dateOfBirth = DEFAULT_DATE;
-                    const hireDate = DEFAULT_DATE;
-
-                    // Insert or update the employee in the database
-                    const employee = await Employee.findOneAndUpdate(
-                        { name: employeeData.name }, // Match by name
-                        {
-                            name: employeeData.name,
-                            position: employeeData.position,
-                            dateOfBirth,
-                            hireDate,
-                        },
-                        { upsert: true, new: true, setDefaultsOnInsert: true } // Create if not exists
-                    );
-
-                    for (const schedule of employeeData.schedule) {
-                        const rawDate = schedule.date.split(' ')[0]; // Extract the date portion (e.g., "20.01.2025")
-                        const [day, month, year] = rawDate.split('.').map(Number);
-                        const parsedDate = new Date(Date.UTC(year, month - 1, day)); // Create a UTC date
-                    
-                        if (isNaN(parsedDate.getTime())) {
-                            console.warn(`Invalid date format in schedule: ${schedule.date}`);
-                            continue; // Skip invalid dates
-                        }
-                    
-                        const scheduleData = {
-                            employee: employee._id,
-                            date: parsedDate,
-                            action: schedule.action,
-                            department: schedule.department || null,
-                            duty: schedule.duty,
-                        };
-                    
-                        try {
-                            // Use `findOneAndUpdate` to upsert the schedule
-                            await Schedule.findOneAndUpdate(
-                                { employee: employee._id, date: parsedDate }, // Match employee and date
-                                scheduleData, // Update with new data
-                                { upsert: true, new: true, setDefaultsOnInsert: true } // Upsert if not exists
-                            );
-                        } catch (error) {
-                            console.error(`Error inserting/updating schedule for employee ${employee.name} on ${schedule.date}:`, error);
-                        }
-                    }
-                    
-                    
-                }
-                console.log(`Data from file ${filePath} added successfully.`);
-            } else {
+            if (!jsonData.employees || jsonData.employees.length === 0) {
                 console.warn(`No employees found in file: ${filePath}`);
+                continue;
             }
+
+            // Extract all unique dates from the schedules
+            const uniqueDates = new Set();
+            jsonData.employees.forEach((employee) => {
+                if (employee.schedule && Array.isArray(employee.schedule)) {
+                    employee.schedule.forEach((schedule) => {
+                        const rawDate = schedule.date.split(' ')[0];
+                        const [day, month, year] = rawDate.split('.').map(Number);
+                        const parsedDate = new Date(Date.UTC(year, month - 1, day));
+                        if (!isNaN(parsedDate.getTime())) {
+                            uniqueDates.add(parsedDate.toISOString().split('T')[0]); // Add date as ISO string
+                        }
+                    });
+                }
+            });
+
+            // Delete existing schedules for all unique dates
+            for (const isoDate of uniqueDates) {
+                const dateToDelete = new Date(isoDate);
+                await deleteSchedulesForDate(dateToDelete);
+            }
+
+            // Process and insert new data
+            await insertSchedulesFromJson(jsonData);
+
+            console.log(`Data from file ${filePath} processed successfully.`);
         }
 
         console.log('Data import completed. Cleaning up folders...');
         await cleanFolders([
-            path.join(__dirname, '../tmpr_json'), // Adjust path as needed
-            path.join(__dirname, '../tmpr_files'), // Adjust path as needed
-            path.join(__dirname, '../uploads'), // Adjust path as needed
+            path.join(__dirname, '../tmpr_json'),
+            path.join(__dirname, '../tmpr_files'),
+            path.join(__dirname, '../uploads'),
         ]);
         console.log('All temporary folders cleaned.');
     } catch (error) {
         console.error('Error during data import and cleanup:', error);
         throw error;
+    }
+};
+
+/**
+ * Deletes all schedules for a given date.
+ * @param {Date} date - The date to delete schedules for.
+ * @returns {Promise<void>}
+ */
+const deleteSchedulesForDate = async (date) => {
+    try {
+        console.log(`Deleting existing schedules for date: ${date.toISOString().split('T')[0]}`);
+        await Schedule.deleteMany({ date });
+    } catch (error) {
+        console.error(`Error deleting schedules for date ${date}:`, error);
+        throw error;
+    }
+};
+
+/**
+ * Inserts schedules and employees from JSON data into the database.
+ * @param {Object} jsonData - JSON data containing employees and their schedules.
+ * @returns {Promise<void>}
+ */
+const insertSchedulesFromJson = async (jsonData) => {
+    for (const employeeData of jsonData.employees) {
+        const employee = await Employee.findOneAndUpdate(
+            { name: employeeData.name },
+            {
+                name: employeeData.name,
+                position: employeeData.position,
+            },
+            { upsert: true, new: true, setDefaultsOnInsert: true }
+        );
+
+        for (const schedule of employeeData.schedule) {
+            const rawDate = schedule.date.split(' ')[0];
+            const [day, month, year] = rawDate.split('.').map(Number);
+            const parsedDate = new Date(Date.UTC(year, month - 1, day));
+
+            if (isNaN(parsedDate.getTime())) {
+                console.warn(`Invalid date format in schedule: ${schedule.date}`);
+                continue;
+            }
+
+            const scheduleData = {
+                employee: employee._id,
+                date: parsedDate,
+                action: schedule.action,
+                department: schedule.department || null,
+                duty: schedule.duty,
+            };
+
+            try {
+                await Schedule.create(scheduleData);
+            } catch (error) {
+                console.error(`Error inserting schedule for employee ${employee.name} on ${schedule.date}:`, error);
+            }
+        }
     }
 };
 
@@ -103,7 +135,7 @@ const cleanFolders = async (folders) => {
             for (const file of files) {
                 const filePath = path.join(folder, file);
                 if (fs.statSync(filePath).isFile()) {
-                    fs.unlinkSync(filePath); // Delete the file
+                    fs.unlinkSync(filePath);
                 }
             }
         } catch (error) {
