@@ -6,8 +6,6 @@ const path = require('path');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const apiRoutes = require('./routes/api');
-const { parseExcel } = require('./controllers/parserJson'); // Import parseExcel function
-const { parseExcelToTxt } = require('./controllers/parserJson');
 const { parseExcelToJson } = require('./controllers/parserJson');
 const { addDataFromJsonAndClean } = require('./controllers/mainController');
 

@@ -149,3 +149,38 @@ const cleanFolders = async (folders) => {
         }
     }
 };
+
+
+/**
+ * Get all schedules for a user by their name.
+ * @route GET /api/getAllByUser
+ * @query {string} name - The name of the user to search for.
+ * @returns {Object} - User's schedules or an error message.
+ */
+exports.getAllSchedulesByUser = async (req, res) => {
+    try {
+        const { name } = req.query;
+
+        if (!name) {
+            return res.status(400).json({ error: 'User name is required.' });
+        }
+
+        // Find the employee by name
+        const employee = await Employee.findOne({ name });
+        if (!employee) {
+            return res.status(404).json({ error: `User with name "${name}" not found.` });
+        }
+
+        // Find all schedules linked to the employee
+        const schedules = await Schedule.find({ employee: employee._id });
+
+        if (schedules.length === 0) {
+            return res.status(404).json({ message: `No schedules found for user "${name}".` });
+        }
+
+        return res.status(200).json({ employee: employee.name, schedules });
+    } catch (error) {
+        console.error('Error fetching schedules:', error);
+        return res.status(500).json({ error: 'Internal server error.' });
+    }
+};
