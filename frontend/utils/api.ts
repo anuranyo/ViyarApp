@@ -35,16 +35,15 @@ const api = {
     }
   },
 
-  // Find data by either a name or department
-  findData: async (query: string) => {
+  // Fetch suggestions by query
+  findAll: async (query: string) => {
     try {
-      const localInstance = axios.create({
-        baseURL: 'http://localhost:5001/api',
+      const response = await instance.get(`/findAll`, {
+        params: { info: query },
       });
-      const response = await localInstance.get(`/findData/${query}`);
       return response.data;
     } catch (error) {
-      console.error('Error finding data:', error);
+      console.error('Error fetching suggestions:', error);
       throw error;
     }
   },

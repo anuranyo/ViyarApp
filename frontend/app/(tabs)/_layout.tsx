@@ -58,7 +58,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="filters"
         options={{
-          title: 'Tab Two',
+          title: 'Збережені розклади',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
