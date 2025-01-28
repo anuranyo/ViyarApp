@@ -305,3 +305,252 @@ exports.findData = async (req, res) => {
         return res.status(500).json({ error: 'Internal server error.' });
     }
 };
+
+
+/**
+ * Get schedules for a specific month and year.
+ * @route GET /api/getByMonth
+ * @query {string} date - Month and year in the format "MM.YYYY".
+ * @returns {Object} - Schedules for the specified month and year.
+ */
+exports.getSchedulesByMonth = async (req, res) => {
+    try {
+        const { date } = req.query;
+
+        if (!date) {
+            return res.status(400).json({ error: 'Date parameter (MM.YYYY) is required.' });
+        }
+
+        const [month, year] = date.split('.').map(Number);
+
+        // Validate month and year
+        if (!month || !year || month < 1 || month > 12) {
+            return res.status(400).json({ error: 'Invalid date format. Use MM.YYYY.' });
+        }
+
+        // Create date range for the specified month
+        const startDate = new Date(Date.UTC(year, month - 1, 1));
+        const endDate = new Date(Date.UTC(year, month, 0, 23, 59, 59)); // Last moment of the month
+
+        console.log(`Fetching schedules for month: ${month}, year: ${year}`);
+
+        // Query schedules within the specified date range
+        const schedules = await Schedule.find({
+            date: { $gte: startDate, $lte: endDate },
+        }).populate('employee', 'name position'); // Populate employee details
+
+        if (schedules.length === 0) {
+            return res.status(404).json({ message: `No schedules found for ${date}.` });
+        }
+
+        // Group schedules by employee
+        const groupedSchedules = schedules.reduce((acc, schedule) => {
+            const employeeId = schedule.employee._id.toString();
+            if (!acc[employeeId]) {
+                acc[employeeId] = {
+                    name: schedule.employee.name,
+                    position: schedule.employee.position,
+                    schedules: [],
+                };
+            }
+            acc[employeeId].schedules.push(schedule);
+            return acc;
+        }, {});
+
+        // Convert grouped schedules to an array
+        const result = Object.values(groupedSchedules);
+
+        return res.status(200).json(result);
+    } catch (error) {
+        console.error('Error fetching schedules by month:', error);
+        return res.status(500).json({ error: 'Internal server error.' });
+    }
+};
+
+
+/**
+ * Get schedules for a specific month and year, filtered independently by name and/or department.
+ * @route GET /api/getByMonth&NameOrDepartment
+ * @query {string} date - Month and year in the format "MM.YYYY".
+ * @query {string} [name] - (Optional) Employee name to filter by.
+ * @query {string} [department] - (Optional) Department name to filter by.
+ * @returns {Object} - Schedules matching the specified filters.
+ */
+exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
+    try {
+        const { date, name, department } = req.query;
+
+        if (!date) {
+            return res.status(400).json({ error: 'Date parameter (MM.YYYY) is required.' });
+        }
+
+        const [month, year] = date.split('.').map(Number);
+
+        // Validate month and year
+        if (!month || !year || month < 1 || month > 12) {
+            return res.status(400).json({ error: 'Invalid date format. Use MM.YYYY.' });
+        }
+
+        // Create date range for the specified month
+        const startDate = new Date(Date.UTC(year, month - 1, 1));
+        const endDate = new Date(Date.UTC(year, month, 0, 23, 59, 59)); // Last moment of the month
+
+        console.log(`Fetching schedules for month: ${month}, year: ${year}, name: ${name}, department: ${department}`);
+
+        // Case 1: Month + Name
+        if (name && !department) {
+            const employee = await Employee.findOne({ name: new RegExp(name, 'i') });
+            if (!employee) {
+                return res.status(404).json({ message: `No employee found with name "${name}".` });
+            }
+
+            const schedules = await Schedule.find({
+                date: { $gte: startDate, $lte: endDate },
+                employee: employee._id,
+            }).populate('employee', 'name position');
+
+            return res.status(200).json({
+                name: employee.name,
+                position: employee.position,
+                schedules,
+            });
+        }
+
+        // Case 2: Month + Department
+        if (!name && department) {
+            const schedules = await Schedule.find({
+                date: { $gte: startDate, $lte: endDate },
+                department: new RegExp(department, 'i'),
+            }).populate('employee', 'name position');
+
+            if (schedules.length === 0) {
+                return res.status(404).json({ message: 'No schedules found for the specified department.' });
+            }
+
+            // Group by employee
+            const groupedSchedules = schedules.reduce((acc, schedule) => {
+                const employeeId = schedule.employee._id.toString();
+                if (!acc[employeeId]) {
+                    acc[employeeId] = {
+                        name: schedule.employee.name,
+                        position: schedule.employee.position,
+                        schedules: [],
+                    };
+                }
+                acc[employeeId].schedules.push(schedule);
+                return acc;
+            }, {});
+
+            return res.status(200).json(Object.values(groupedSchedules));
+        }
+
+        // Case 3: Month + Name + Department
+        if (name && department) {
+            const employee = await Employee.findOne({ name: new RegExp(name, 'i') });
+            let employeeId = null;
+
+            if (employee) {
+                employeeId = employee._id;
+            }
+
+            const schedules = await Schedule.find({
+                date: { $gte: startDate, $lte: endDate },
+                $or: [
+                    { employee: employeeId },
+                    { department: new RegExp(department, 'i') },
+                ],
+            }).populate('employee', 'name position');
+
+            if (schedules.length === 0) {
+                return res.status(404).json({ message: 'No schedules found for the specified filters.' });
+            }
+
+            // Group by employee
+            const groupedSchedules = schedules.reduce((acc, schedule) => {
+                const employeeId = schedule.employee._id.toString();
+                if (!acc[employeeId]) {
+                    acc[employeeId] = {
+                        name: schedule.employee.name,
+                        position: schedule.employee.position,
+                        schedules: [],
+                    };
+                }
+                acc[employeeId].schedules.push(schedule);
+                return acc;
+            }, {});
+
+            return res.status(200).json(Object.values(groupedSchedules));
+        }
+
+        // Default: Month Only (if no name or department provided)
+        const schedules = await Schedule.find({
+            date: { $gte: startDate, $lte: endDate },
+        }).populate('employee', 'name position');
+
+        if (schedules.length === 0) {
+            return res.status(404).json({ message: 'No schedules found for the specified month.' });
+        }
+
+        // Group by employee
+        const groupedSchedules = schedules.reduce((acc, schedule) => {
+            const employeeId = schedule.employee._id.toString();
+            if (!acc[employeeId]) {
+                acc[employeeId] = {
+                    name: schedule.employee.name,
+                    position: schedule.employee.position,
+                    schedules: [],
+                };
+            }
+            acc[employeeId].schedules.push(schedule);
+            return acc;
+        }, {});
+
+        return res.status(200).json(Object.values(groupedSchedules));
+    } catch (error) {
+        console.error('Error fetching schedules by month, name, or department:', error);
+        return res.status(500).json({ error: 'Internal server error.' });
+    }
+};
+
+
+/**
+ * Search for employees and departments matching a partial string.
+ * @route GET /api/findAll
+ * @query {string} info - Partial string to search for in employee names and department names.
+ * @returns {Object} - Matched employees and departments.
+ */
+exports.findAll = async (req, res) => {
+    try {
+        const { info } = req.query;
+
+        if (!info) {
+            return res.status(400).json({ error: 'Search query (info) is required.' });
+        }
+
+        console.log(`Performing live search for: ${info}`);
+
+        // Find employees matching the search query
+        const employees = await Employee.find({
+            name: new RegExp(info, 'i'), // Case-insensitive partial match
+        }).select('name position'); // Return only name and position fields
+
+        // Find departments matching the search query
+        const schedules = await Schedule.find({
+            department: new RegExp(info, 'i'), // Case-insensitive partial match
+        }).select('department'); // Return only department field
+
+        // Extract unique departments from schedules
+        const uniqueDepartments = [...new Set(schedules.map((schedule) => schedule.department))].filter(Boolean);
+
+        // Combine results
+        const result = {
+            employees,
+            departments: uniqueDepartments,
+        };
+
+        return res.status(200).json(result);
+    } catch (error) {
+        console.error('Error during live search:', error);
+        return res.status(500).json({ error: 'Internal server error.' });
+    }
+};
