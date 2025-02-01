@@ -1,7 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, Text, TouchableOpacity, Dimensions, FlatList, ScrollView } from 'react-native';
+import {
+  View,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  Dimensions,
+  FlatList,
+  ScrollView,
+  Alert,
+} from 'react-native';
 import { Calendar } from 'react-native-calendars';
-import DropDownPicker from 'react-native-dropdown-picker';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import axios from 'axios';
+import { useNavigation } from '@react-navigation/native';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
@@ -9,186 +20,164 @@ const DAY_WIDTH = SCREEN_WIDTH / 8;
 const DAY_HEIGHT = SCREEN_HEIGHT / 13;
 
 export default function App() {
-  const [calendarType, setCalendarType] = useState('monthly'); // Default to monthly view
-  const [openDropdown, setOpenDropdown] = useState(false);
-  const [currentMonth, setCurrentMonth] = useState('');
-  const [currentWeek, setCurrentWeek] = useState<string[]>([]); // Current week dates
-  const [selectedDay, setSelectedDay] = useState<string>(''); // Selected day
-  const events: { [key: string]: { color: string; description: string }[] } = {
-    '2025-01-01': [{ color: 'yellow', description: 'New Year Party' }],
-    '2025-01-07': [
-      { color: 'yellow', description: 'Team Meeting' },
-      { color: 'green', description: 'Lunch with John' },
-    ],
-    '2025-01-14': [
-      { color: 'yellow', description: 'Project Deadline' },
-      { color: 'black', description: 'Yoga Class' },
-    ],
-    '2025-01-20': [
-      { color: 'yellow', description: 'Doctor Appointment' },
-      { color: 'green', description: 'Gym Session' },
-      { color: 'blue', description: 'Call with Client' },
-      { color: 'black', description: 'Dinner with Family' },
-    ],
-  };
+  const [events, setEvents] = useState<{ [key: string]: { color: string; description: string }[] }>(
+    {}
+  );
+  const [selectedDay, setSelectedDay] = useState<string>('');
+  const [selectedSchedules, setSelectedSchedules] = useState<any[]>([]); // Schedules for the selected day
+  const [selectedGroup, setSelectedGroup] = useState<any | null>(null); // Selected group details
 
-  // Initialize current month and week
   useEffect(() => {
-    const today = new Date();
+    const loadSelectedGroup = async () => {
+      try {
+        const savedGroup = await AsyncStorage.getItem('selectedGroup');
+        console.log('Retrieved Selected Group from AsyncStorage:', savedGroup);
 
-    // Set current month
-    const monthName = today.toLocaleString('default', { month: 'long' });
-    setCurrentMonth(monthName);
+        const currentDate = new Date().toISOString().split('T')[0].slice(5, 7) + '.' + new Date().getFullYear();
+        console.log('Current Date:', currentDate);
 
-    // Set current week
-    const week = getCurrentWeek(today);
-    setCurrentWeek(week);
+        if (savedGroup) {
+          const parsedGroup = JSON.parse(savedGroup);
+          console.log('Parsed Selected Group:', parsedGroup);
+          setSelectedGroup(parsedGroup);
+          fetchSchedules(parsedGroup);
+        } else {
+          console.log('No selected group found.');
+        }
+      } catch (error) {
+        console.error('Failed to load selected group:', error);
+      }
+    };
 
-    // Set selected day as today
-    setSelectedDay(today.toISOString().split('T')[0]); // YYYY-MM-DD
-  }, []);
-
-  // Calculate current week's dates (Monday to Sunday)
-  const getCurrentWeek = (date: Date): string[] => {
-    const startOfWeek = new Date(date);
-    startOfWeek.setDate(date.getDate() - date.getDay() + 1); // Set to Monday
-    const weekDates: string[] = [];
-
-    for (let i = 0; i < 7; i++) {
-      const day = new Date(startOfWeek);
-      day.setDate(startOfWeek.getDate() + i);
-      weekDates.push(day.toISOString().split('T')[0]); // Format: YYYY-MM-DD
-    }
-    return weekDates;
-  };
-
-  // Handle month change in monthly view
+    const unsubscribe = navigation.addListener('focus', loadSelectedGroup);
+    return unsubscribe;
+  }, [navigation]);
+  
   const handleMonthChange = (month: any) => {
     const date = new Date(month.dateString);
-    const monthName = date.toLocaleString('default', { month: 'long' });
-    setCurrentMonth(monthName);
-  };
+    const formattedDate = `${date.toISOString().split('T')[0].slice(5, 7)}.${date.getFullYear()}`;
+    fetchSchedules(formattedDate);
+  };  
 
-  // Get events for the selected day
-  const selectedEvents = events[selectedDay] || [];
+  // Fetch schedules for the selected group
+  const fetchSchedules = async (group: any) => {
+    try {
+      if (!group) {
+        Alert.alert('Error', 'No selected group found.');
+        return;
+      }
+  
+      const groupFilters = group.items.map((item: string) => {
+        if (item.startsWith('Employee:')) {
+          return `name=${encodeURIComponent(item.replace('Employee: ', '').split(' ')[0])}`;
+        } else if (item.startsWith('Department:')) {
+          return `department=${encodeURIComponent(item.replace('Department: ', ''))}`;
+        }
+        return '';
+      });
+  
+      const currentDate = new Date().toISOString().split('T')[0].slice(5, 7) + '.' + new Date().getFullYear();
+      const query = `https://viyarapp.onrender.com/api/getByMonth&NameOrDepartment?date=${currentDate}&${groupFilters.join('&')}`;
+  
+      console.log('Fetching schedules with query:', query);
+      const response = await axios.get(query);
+      console.log('API Response:', response.data);
+  
+      if (!response.data || !Array.isArray(response.data)) {
+        console.error('Unexpected API response:', response.data);
+        Alert.alert('Error', 'Invalid data received from API.');
+        return;
+      }
+  
+      const apiEvents: { [key: string]: { color: string; description: string }[] } = {};
+      response.data.forEach((schedule: any) => {
+        if (!schedule.date) {
+          console.warn('Skipping schedule entry due to missing date:', schedule);
+          return;
+        }
+  
+        const date = schedule.date.split('T')[0]; // Format: YYYY-MM-DD
+        if (!apiEvents[date]) apiEvents[date] = [];
+  
+        apiEvents[date].push({
+          color: 'blue', // Change this for different users if needed
+          description: `${schedule.employee?.name || 'Unknown'} - ${schedule.department || 'N/A'} - ${schedule.action || 'N/A'}`,
+        });
+      });
+  
+      console.log('Processed Events for Calendar:', apiEvents); // Debug log
+      setEvents(apiEvents); // Update state with events
+    } catch (error) {
+      console.error('Failed to fetch schedules:', error);
+      Alert.alert('Error', 'Failed to load schedules.');
+    }
+  };
+  
+  
+
+  // Handle day selection
+  const handleDaySelect = (day: string) => {
+    setSelectedDay(day);
+    const schedulesForDay = events[day]?.map((event) => ({
+      description: event.description,
+    })) || [];
+    setSelectedSchedules(schedulesForDay);
+  };
 
   return (
     <ScrollView style={styles.scrollView}>
       <View style={styles.container}>
-        {/* Dropdown to toggle calendar types */}
-        <DropDownPicker
-          open={openDropdown}
-          value={calendarType}
-          items={[
-            { label: 'Monthly View', value: 'monthly' },
-            { label: 'Weekly View', value: 'weekly' },
-          ]}
-          setOpen={setOpenDropdown}
-          setValue={setCalendarType}
-          placeholder="Select View"
-          containerStyle={styles.dropdownContainer}
-          style={styles.dropdown}
+        {/* Calendar */}
+        <Calendar
+          onMonthChange={handleMonthChange}
+          markingType="multi-dot"
+          markedDates={Object.keys(events).reduce((acc, date) => {
+            acc[date] = { dots: events[date] };
+            return acc;
+          }, {} as any)}
+          dayComponent={({ date, marking, state }) => {
+            if (!date) return null; // Safely handle undefined
+            const dots = marking?.dots || [];
+            const isSelected = date.dateString === selectedDay;
+
+            return (
+              <TouchableOpacity
+                onPress={() => setSelectedDay(date.dateString)}
+                style={[
+                  styles.weekDayContainer,
+                  isSelected && styles.selectedDayContainer,
+                ]}
+              >
+                <Text
+                  style={[
+                    styles.dayName,
+                    isSelected && styles.selectedDayName,
+                    state === 'disabled' && styles.fadedDayName,
+                  ]}
+                >
+                  {date.day}
+                </Text>
+                <View style={styles.dotContainer}>
+                  {dots.map((dot: any, index: number) => (
+                    <View
+                      key={index}
+                      style={[styles.dot, { backgroundColor: dot.color }]}
+                    />
+                  ))}
+                </View>
+              </TouchableOpacity>
+            );
+          }}
         />
 
-        {/* Calendar */}
-        {calendarType === 'monthly' ? (
-          <View>
-            <Calendar
-              onMonthChange={handleMonthChange}
-              markingType="multi-dot"
-              markedDates={Object.keys(events).reduce((acc, date) => {
-                acc[date] = { dots: events[date] };
-                return acc;
-              }, {} as any)}
-              dayComponent={({ date, marking, state }) => {
-                if (!date) return null; // Safely handle undefined
-                const dots = marking?.dots || [];
-                const isSelected = date.dateString === selectedDay;
 
-                return (
-                  <TouchableOpacity
-                    onPress={() => setSelectedDay(date.dateString)}
-                    style={[
-                      styles.weekDayContainer,
-                      isSelected && styles.selectedDayContainer,
-                    ]}
-                  >
-                    <Text
-                      style={[
-                        styles.dayName,
-                        isSelected && styles.selectedDayName,
-                        state === 'disabled' && styles.fadedDayName,
-                      ]}
-                    >
-                      {date.day}
-                    </Text>
-                    <View style={styles.dotContainer}>
-                      {dots.map((dot: any, index: number) => (
-                        <View
-                          key={index}
-                          style={[styles.dot, { backgroundColor: dot.color }]}
-                        />
-                      ))}
-                    </View>
-                  </TouchableOpacity>
-                );
-              }}
-            />
-          </View>
-        ) : (
-          <View style={styles.weeklyContainer}>
-            <View style={styles.weekRow}>
-              {currentWeek.map((item) => {
-                const date = new Date(item);
-                const dayName = date
-                  .toLocaleString('default', { weekday: 'short' })
-                  .toUpperCase();
-                const dayNumber = date.getDate();
-                const isSelected = item === selectedDay;
-                const dots = events[item] || [];
-
-                return (
-                  <TouchableOpacity
-                    key={item}
-                    onPress={() => setSelectedDay(item)}
-                    style={[
-                      styles.weekDayContainer,
-                      isSelected && styles.selectedDayContainer,
-                    ]}
-                  >
-                    <Text
-                      style={[
-                        styles.dayName,
-                        isSelected && styles.selectedDayName,
-                      ]}
-                    >
-                      {dayName}
-                    </Text>
-                    <Text style={styles.dayNumber}>{dayNumber}</Text>
-                    <View style={styles.dotContainer}>
-                      {dots.map((dot, index) => (
-                        <View
-                          key={index}
-                          style={[styles.dot, { backgroundColor: dot.color }]}
-                        />
-                      ))}
-                    </View>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
-          </View>
-        )}
-
-        {/* Shelter Below Calendar */}
+        {/* Display schedules for the selected day */}
         <View style={styles.shelter}>
-          {selectedEvents.length === 0 ? (
-            <Text style={styles.noEventsText}>
-              Haha, chill, no events today ,')
-            </Text>
+          {selectedSchedules.length === 0 ? (
+            <Text style={styles.noEventsText}>No events for this day.</Text>
           ) : (
             <FlatList
-              data={selectedEvents}
+              data={selectedSchedules}
               keyExtractor={(item, index) => index.toString()}
               renderItem={({ item, index }) => (
                 <Text style={styles.eventText}>
@@ -213,13 +202,6 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: '#f0f0f0',
   },
-  dropdownContainer: {
-    marginBottom: 20,
-  },
-  dropdown: {
-    backgroundColor: '#f0f0f0',
-    borderColor: '#ccc',
-  },
   weekDayContainer: {
     justifyContent: 'center',
     alignItems: 'center',
@@ -239,15 +221,10 @@ const styles = StyleSheet.create({
     color: '#666',
   },
   fadedDayName: {
-    color: '#ccc', // Fix for missing style
+    color: '#ccc',
   },
   selectedDayName: {
     color: '#ffffff',
-  },
-  dayNumber: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    color: '#333',
   },
   dotContainer: {
     flexDirection: 'row',
@@ -259,21 +236,6 @@ const styles = StyleSheet.create({
     height: 5,
     borderRadius: 2.5,
     marginHorizontal: 1,
-  },
-  weeklyContainer: {
-    backgroundColor: '#ffffff',
-    borderRadius: 11,
-    paddingVertical: 5,
-    shadowColor: '#000',
-    shadowOpacity: 0.1,
-    shadowOffset: { width: 0, height: 3 },
-    shadowRadius: 10,
-    elevation: 5,
-  },
-  weekRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
   },
   shelter: {
     marginTop: 20,

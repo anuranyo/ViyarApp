@@ -21,7 +21,9 @@ const App = () => {
   const [selectedItems, setSelectedItems] = useState<string[]>([]);
   const [groups, setGroups] = useState<{ id: string; items: string[] }[]>([]);
   const [loading, setLoading] = useState(false);
+  const [selectedGroupId, setSelectedGroupId] = useState<string | null>(null); // New state for selected group
   const debounceTimeout = useRef<NodeJS.Timeout | null>(null);
+  
 
   // Load saved schedules and groups from AsyncStorage
   useEffect(() => {
@@ -37,16 +39,39 @@ const App = () => {
       }
     };
 
+    const loadSelectedGroup = async () => {
+      try {
+        const savedGroupId = await AsyncStorage.getItem('selectedGroupId');
+        const savedGroup = await AsyncStorage.getItem('selectedGroup');
+    
+        console.log('Retrieved Selected Group ID from AsyncStorage:', savedGroupId); // Debug log
+        console.log('Retrieved Selected Group from AsyncStorage:', savedGroup); // Debug log
+    
+        if (savedGroup) {
+          const parsedGroup = JSON.parse(savedGroup);
+          console.log('Parsed Selected Group:', parsedGroup); // Debug log
+          // setSelectedGroup(parsedGroup);
+          // fetchSchedules(parsedGroup);
+        } else {
+          console.log('No selected group found.');
+        }
+      } catch (error) {
+        console.error('Failed to load selected group:', error);
+      }
+    };
+    
+    
+  
+    loadSelectedGroup();
     loadData();
   }, []);
 
-  // Save schedules to AsyncStorage
-  const saveSchedules = async (updatedSchedules: typeof schedules) => {
+  // Save selected items to AsyncStorage
+  const saveSelectedItems = async (updatedSelection: string[]) => {
     try {
-      await AsyncStorage.setItem('schedules', JSON.stringify(updatedSchedules));
-      setSchedules(updatedSchedules);
+      await AsyncStorage.setItem('selectedItems', JSON.stringify(updatedSelection));
     } catch (error) {
-      console.error('Failed to save schedules:', error);
+      console.error('Failed to save selected items:', error);
     }
   };
 
@@ -107,31 +132,76 @@ const fetchSuggestions = async (query: string) => {
     fetchSuggestions(searchQuery);
   };
 
-  // Toggle item selection
-  const toggleSelection = (item: string) => {
-    setSelectedItems((prev) =>
-      prev.includes(item) ? prev.filter((i) => i !== item) : [...prev, item]
-    );
-  };
+// Helper function to classify items as names or departments
+const classifyItems = (items: string[]) => {
+  const names: string[] = [];
+  const departments: string[] = [];
 
-  // Create a new group from selected items
-  const createGroup = async () => {
-    if (selectedItems.length === 0) {
-      Alert.alert('Error', 'No items selected to create a group.');
-      return;
+  items.forEach((item) => {
+    if (item.startsWith('Employee:')) {
+      names.push(item);
+    } else if (item.startsWith('Department:')) {
+      departments.push(item);
     }
+  });
 
-    const newGroup = {
-      id: `${Date.now()}`,
-      items: [...selectedItems],
-    };
+  return { names, departments };
+};
 
-    const updatedGroups = [...groups, newGroup];
-    await saveGroups(updatedGroups);
-    setSelectedItems([]);
-    Alert.alert('Success', 'Group created successfully!');
+// Create a new group from selected items with validation
+const saveSelectedGroup = async (group: any) => {
+  try {
+    await AsyncStorage.setItem('selectedGroup', JSON.stringify(group));
+    console.log('Saved Selected Group:', group); // Debug log
+  } catch (error) {
+    console.error('Failed to save selected group:', error);
+  }
+};
+
+// Call this in `createGroup` after saving the group
+const createGroup = async () => {
+  if (selectedItems.length === 0) {
+    Alert.alert('Error', 'No items selected to create a group.');
+    return;
+  }
+
+  const { names, departments } = classifyItems(selectedItems);
+
+  if (names.length > 1 || departments.length > 1) {
+    Alert.alert(
+      'Error',
+      'A group can contain only one name or one department. Please adjust your selection.'
+    );
+    return;
+  }
+
+  const newGroup = {
+    id: `${Date.now()}`,
+    items: [...selectedItems],
   };
 
+  const updatedGroups = [...groups, newGroup];
+  await saveGroups(updatedGroups);
+  setSelectedItems([]);
+
+  // Save the newly created group as the selected group
+  await saveSelectedGroup(newGroup);
+
+  Alert.alert('Success', 'Group created successfully!');
+};
+
+
+const toggleSelection = (item: string) => {
+  setSelectedItems((prev) => {
+    const updatedSelection = prev.includes(item)
+      ? prev.filter((i) => i !== item)
+      : [...prev, item];
+
+    saveSelectedItems(updatedSelection); // Save the updated selection
+    return updatedSelection;
+  });
+};
+   
   // Delete a group
   const deleteGroup = async (id: string) => {
     const updatedGroups = groups.filter((group) => group.id !== id);
@@ -148,17 +218,48 @@ const fetchSuggestions = async (query: string) => {
     </TouchableOpacity>
   );
 
+  // Function to handle group selection
+  const selectGroup = async (id: string) => {
+    const updatedGroupId = selectedGroupId === id ? null : id; // Toggle selection
+    setSelectedGroupId(updatedGroupId);
+  
+    try {
+      await AsyncStorage.setItem('selectedGroupId', JSON.stringify(updatedGroupId));
+      console.log('Saved Selected Group ID:', updatedGroupId); // Debug log
+  
+      const selectedGroup = groups.find(group => group.id === updatedGroupId);
+      if (selectedGroup) {
+        await AsyncStorage.setItem('selectedGroup', JSON.stringify(selectedGroup));
+        console.log('Saved Selected Group:', selectedGroup); // Debug log
+      }
+    } catch (error) {
+      console.error('Failed to save selected group:', error);
+    }
+  };
+  
+  
+
   // Render a single group
-  const renderGroup = ({ item }: { item: { id: string; items: string[] } }) => (
-    <View style={styles.groupItem}>
-      <Text style={styles.groupText}>{item.items.join('\n')}</Text>
-      <View style={styles.groupActions}>
-        <TouchableOpacity onPress={() => deleteGroup(item.id)} style={styles.deleteGroupButton}>
-          <Ionicons name="trash" size={20} color="#ffffff" />
-        </TouchableOpacity>
-      </View>
-    </View>
-  );
+  const renderGroup = ({ item }: { item: { id: string; items: string[] } }) => {
+    const isSelected = selectedGroupId === item.id;
+
+    return (
+      <TouchableOpacity
+        onPress={() => selectGroup(item.id)} // Handle group selection
+        style={[
+          styles.groupItem,
+          isSelected && styles.selectedGroup, // Apply styles if selected
+        ]}
+      >
+        <Text style={styles.groupText}>{item.items.join('\n')}</Text>
+        <View style={styles.groupActions}>
+          <TouchableOpacity onPress={() => deleteGroup(item.id)} style={styles.deleteGroupButton}>
+            <Ionicons name="trash" size={20} color="#ffffff" />
+          </TouchableOpacity>
+        </View>
+      </TouchableOpacity>
+    );
+  };
 
   return (
     <View style={styles.container}>
@@ -183,19 +284,18 @@ const fetchSuggestions = async (query: string) => {
         {loading && <ActivityIndicator size="small" color="#ffffff" style={styles.loader} />}
       </View>
 
-    {/* Suggestions List */}
-    {suggestions.length > 0 && (
-      <FlatList
-        data={suggestions}
-        renderItem={renderSuggestion}
-        keyExtractor={(item, index) => index.toString()}
-        contentContainerStyle={styles.suggestionsList}
-        style={{
-          maxHeight: Math.min(suggestions.length * 50, 200), // Dynamic height calculation
-        }}
-      />
-    )}
-
+      {/* Suggestions List */}
+      {suggestions.length > 0 && (
+        <FlatList
+          data={suggestions}
+          renderItem={renderSuggestion}
+          keyExtractor={(item, index) => index.toString()}
+          contentContainerStyle={styles.suggestionsList}
+          style={{
+            maxHeight: Math.min(suggestions.length * 50, 200), // Dynamic height calculation
+          }}
+        />
+      )}
 
       {/* Groups List */}
       <FlatList
@@ -295,7 +395,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#222222',
     borderRadius: 8,
     marginBottom: 10,
-  },
+    borderWidth: 2, // Add a default border width
+    borderColor: '#333333', // Default border color
+  },  
+  selectedGroup: {
+    borderColor: '#4CAF50', // Highlight selected group with green border
+  },  
   groupText: {
     color: '#ffffff',
     flex: 1,
