@@ -42,10 +42,12 @@ const monthNames = [
 // Directories for file uploads
 const UPLOAD_DIR = path.join(__dirname, 'tmpr_files');
 const JSON_DIR = path.join(__dirname, 'tmpr_json');
+const UPLOADS_DIR = path.join(__dirname, 'uploads');
 
 // Create directories if they do not exist
 if (!fs.existsSync(UPLOAD_DIR)) fs.mkdirSync(UPLOAD_DIR);
 if (!fs.existsSync(JSON_DIR)) fs.mkdirSync(JSON_DIR);
+if (!fs.existsSync(UPLOADS_DIR)) fs.mkdirSync(UPLOADS_DIR);
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({
