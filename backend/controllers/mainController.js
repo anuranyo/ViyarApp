@@ -391,20 +391,20 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
 
         const [month, year] = date.split('.').map(Number);
 
-        // Validate month and year
         if (!month || !year || month < 1 || month > 12) {
             return res.status(400).json({ error: 'Invalid date format. Use MM.YYYY.' });
         }
 
-        // Create date range for the specified month
         const startDate = new Date(Date.UTC(year, month - 1, 1));
-        const endDate = new Date(Date.UTC(year, month, 0, 23, 59, 59)); // Last moment of the month
+        const endDate = new Date(Date.UTC(year, month, 0, 23, 59, 59));
 
         console.log(`Fetching schedules for month: ${month}, year: ${year}, name: ${name}, department: ${department}`);
 
-        // Case 1: Month + Name
+        let employees = await Employee.find({});
+        const validEmployees = employees.filter((employee) => employee.name && employee.name !== 'undefined');
+
         if (name && !department) {
-            const employee = await Employee.findOne({ name: new RegExp(name, 'i') });
+            const employee = validEmployees.find(emp => new RegExp(name, 'i').test(emp.name));
             if (!employee) {
                 return res.status(404).json({ message: `No employee found with name "${name}".` });
             }
@@ -421,7 +421,6 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
             });
         }
 
-        // Case 2: Month + Department
         if (!name && department) {
             const schedules = await Schedule.find({
                 date: { $gte: startDate, $lte: endDate },
@@ -432,7 +431,6 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
                 return res.status(404).json({ message: 'No schedules found for the specified department.' });
             }
 
-            // Group by employee
             const groupedSchedules = schedules.reduce((acc, schedule) => {
                 const employeeId = schedule.employee._id.toString();
                 if (!acc[employeeId]) {
@@ -449,14 +447,9 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
             return res.status(200).json(Object.values(groupedSchedules));
         }
 
-        // Case 3: Month + Name + Department
         if (name && department) {
-            const employee = await Employee.findOne({ name: new RegExp(name, 'i') });
-            let employeeId = null;
-
-            if (employee) {
-                employeeId = employee._id;
-            }
+            const employee = validEmployees.find(emp => new RegExp(name, 'i').test(emp.name));
+            let employeeId = employee ? employee._id : null;
 
             const schedules = await Schedule.find({
                 date: { $gte: startDate, $lte: endDate },
@@ -470,7 +463,6 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
                 return res.status(404).json({ message: 'No schedules found for the specified filters.' });
             }
 
-            // Group by employee
             const groupedSchedules = schedules.reduce((acc, schedule) => {
                 const employeeId = schedule.employee._id.toString();
                 if (!acc[employeeId]) {
@@ -487,7 +479,6 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
             return res.status(200).json(Object.values(groupedSchedules));
         }
 
-        // Default: Month Only (if no name or department provided)
         const schedules = await Schedule.find({
             date: { $gte: startDate, $lte: endDate },
         }).populate('employee', 'name position');
@@ -496,7 +487,6 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
             return res.status(404).json({ message: 'No schedules found for the specified month.' });
         }
 
-        // Group by employee
         const groupedSchedules = schedules.reduce((acc, schedule) => {
             const employeeId = schedule.employee._id.toString();
             if (!acc[employeeId]) {
@@ -516,7 +506,6 @@ exports.getSchedulesByMonthAndNameOrDepartment = async (req, res) => {
         return res.status(500).json({ error: 'Internal server error.' });
     }
 };
-
 
 /**
  * Search for employees and departments matching a partial string.
