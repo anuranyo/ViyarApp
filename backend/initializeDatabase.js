@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 
 // Import models
 const Employee = require('./models/Employee');
+const EmployeeInfo = require('./models/EmployeeInfo');
 const Schedule = require('./models/Schedule');
 
 dotenv.config();
@@ -12,17 +13,14 @@ dotenv.config();
  */
 const initializeDatabase = async () => {
     try {
-        // Connect to MongoDB
         console.log('Attempting to connect to MongoDB...');
         await connectToDatabase();
         console.log('MongoDB connected successfully.');
 
-        // Initialize empty collections
         console.log('Initializing empty collections for viyarSchedule...');
         await initializeCollections();
         console.log('Empty database structure for viyarSchedule created successfully.');
 
-        // Close the database connection
         await closeDatabaseConnection();
         console.log('MongoDB connection closed.');
     } catch (error) {
@@ -36,7 +34,9 @@ const initializeDatabase = async () => {
 const connectToDatabase = async () => {
     await mongoose.connect(process.env.MONGO_URI, {
         dbName: 'viyarSchedule',
-        serverSelectionTimeoutMS: 5000, // Timeout for server selection
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        serverSelectionTimeoutMS: 5000,
     });
 };
 
@@ -44,9 +44,15 @@ const connectToDatabase = async () => {
  * Initialize all database collections by calling `.init()` on each model.
  */
 const initializeCollections = async () => {
-    const models = [Employee, Schedule];
+    const models = [Employee, EmployeeInfo, Schedule];
+
     for (const model of models) {
-        await model.init();
+        try {
+            await model.init();
+            console.log(`Initialized collection for model: ${model.modelName}`);
+        } catch (error) {
+            console.error(`Failed to initialize model: ${model.modelName}`, error);
+        }
     }
 };
 
@@ -55,6 +61,7 @@ const initializeCollections = async () => {
  */
 const closeDatabaseConnection = async () => {
     await mongoose.disconnect();
+    console.log('Disconnected from MongoDB.');
 };
 
 /**
