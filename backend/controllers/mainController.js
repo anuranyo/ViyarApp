@@ -12,7 +12,6 @@ exports.addDataFromJsonAndClean = async (files) => {
     try {
         console.log('Starting data import...');
         for (const filePath of files) {
-            // Skip files that are not JSON
             if (path.extname(filePath).toLowerCase() !== '.json') {
                 console.warn(`Skipping non-JSON file: ${filePath}`);
                 continue;
@@ -21,7 +20,6 @@ exports.addDataFromJsonAndClean = async (files) => {
             console.log(`Processing file: ${filePath}`);
             const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
-            // Check if the JSON file contains employees
             if (!jsonData.employees || jsonData.employees.length === 0) {
                 console.warn(`No employees found in file: ${filePath}`);
                 continue;
@@ -36,7 +34,7 @@ exports.addDataFromJsonAndClean = async (files) => {
                         const [day, month, year] = rawDate.split('.').map(Number);
                         const parsedDate = new Date(Date.UTC(year, month - 1, day));
                         if (!isNaN(parsedDate.getTime())) {
-                            uniqueDates.add(parsedDate.toISOString().split('T')[0]); // Add date as ISO string
+                            uniqueDates.add(parsedDate.toISOString().split('T')[0]);
                         }
                     });
                 }
@@ -48,8 +46,8 @@ exports.addDataFromJsonAndClean = async (files) => {
                 await deleteSchedulesForDate(dateToDelete);
             }
 
-            // Process and insert new data
-            await insertSchedulesFromJson(jsonData);
+            // Process and upsert employee and schedule data
+            await upsertEmployeesAndSchedules(jsonData);
 
             console.log(`Data from file ${filePath} processed successfully.`);
         }
@@ -83,47 +81,52 @@ const deleteSchedulesForDate = async (date) => {
 };
 
 /**
- * Inserts schedules and employees from JSON data into the database.
+ * Inserts or updates employees and schedules from JSON data.
  * @param {Object} jsonData - JSON data containing employees and their schedules.
  * @returns {Promise<void>}
  */
-const insertSchedulesFromJson = async (jsonData) => {
+const upsertEmployeesAndSchedules = async (jsonData) => {
     for (const employeeData of jsonData.employees) {
-        // Find or create an employee record
-        const employee = await Employee.findOneAndUpdate(
-            { name: employeeData.name },
-            {
-                name: employeeData.name,
-                position: employeeData.position,
-            },
-            { upsert: true, new: true, setDefaultsOnInsert: true }
-        );
+        try {
+            // Find or create an employee record
+            const employee = await Employee.findOneAndUpdate(
+                { name: employeeData.name },
+                {
+                    name: employeeData.name,
+                    position: employeeData.position,
+                },
+                { upsert: true, new: true, setDefaultsOnInsert: true }
+            );
 
-        for (const schedule of employeeData.schedule) {
-            const rawDate = schedule.date.split(' ')[0];
-            const [day, month, year] = rawDate.split('.').map(Number);
-            const parsedDate = new Date(Date.UTC(year, month - 1, day));
+            for (const schedule of employeeData.schedule) {
+                const rawDate = schedule.date.split(' ')[0];
+                const [day, month, year] = rawDate.split('.').map(Number);
+                const parsedDate = new Date(Date.UTC(year, month - 1, day));
 
-            // Validate the date format
-            if (isNaN(parsedDate.getTime())) {
-                console.warn(`Invalid date format in schedule: ${schedule.date}`);
-                continue;
+                if (isNaN(parsedDate.getTime())) {
+                    console.warn(`Invalid date format in schedule: ${schedule.date}`);
+                    continue;
+                }
+
+                const scheduleFilter = {
+                    employee: employee._id,
+                    date: parsedDate,
+                };
+
+                const scheduleUpdate = {
+                    action: schedule.action,
+                    department: schedule.department || null,
+                    duty: schedule.duty,
+                };
+
+                await Schedule.findOneAndUpdate(scheduleFilter, scheduleUpdate, {
+                    upsert: true,
+                    new: true,
+                    setDefaultsOnInsert: true,
+                });
             }
-
-            const scheduleData = {
-                employee: employee._id,
-                date: parsedDate,
-                action: schedule.action,
-                department: schedule.department || null,
-                duty: schedule.duty,
-            };
-
-            try {
-                // Insert the schedule into the database
-                await Schedule.create(scheduleData);
-            } catch (error) {
-                console.error(`Error inserting schedule for employee ${employee.name} on ${schedule.date}:`, error);
-            }
+        } catch (error) {
+            console.error(`Error processing employee ${employeeData.name}:`, error);
         }
     }
 };
@@ -140,7 +143,6 @@ const cleanFolders = async (folders) => {
             for (const file of files) {
                 const filePath = path.join(folder, file);
                 if (fs.statSync(filePath).isFile()) {
-                    // Delete the file
                     fs.unlinkSync(filePath);
                 }
             }
@@ -149,7 +151,6 @@ const cleanFolders = async (folders) => {
         }
     }
 };
-
 
 /**
  * Get all schedules for a user by their name.
@@ -218,15 +219,18 @@ exports.getSchedulesByDepartments = async (req, res) => {
         // Step 2: Fetch all employees matching the extracted IDs
         const employees = await Employee.find({ _id: { $in: employeeIds } });
 
-        if (employees.length === 0) {
-            return res.status(404).json({ message: 'No employees found for the specified departments.' });
+        // **Filter out employees with name "undefined"**
+        const validEmployees = employees.filter((employee) => employee.name && employee.name !== 'undefined');
+
+        if (validEmployees.length === 0) {
+            return res.status(404).json({ message: 'No valid employees found for the specified departments.' });
         }
 
-        // Step 3: Fetch all schedules for these employees (ignoring department filtering)
-        const allSchedules = await Schedule.find({ employee: { $in: employeeIds } });
+        // Step 3: Fetch all schedules for these employees
+        const allSchedules = await Schedule.find({ employee: { $in: validEmployees.map((emp) => emp._id) } });
 
         // Step 4: Map schedules to their corresponding employees
-        const result = employees.map((employee) => {
+        const result = validEmployees.map((employee) => {
             return {
                 name: employee.name,
                 position: employee.position,
@@ -240,6 +244,7 @@ exports.getSchedulesByDepartments = async (req, res) => {
         return res.status(500).json({ error: 'Internal server error.' });
     }
 };
+
 
 /**
  * Search for employees and schedules by department or name.
